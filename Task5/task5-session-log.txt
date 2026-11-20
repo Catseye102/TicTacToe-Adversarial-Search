@@ -1,0 +1,1516 @@
+Task 5 session started Wed Nov 11 2026 23:35:56 GMT-0600 (Central Standard Time)
+=== Task 5 run: N=10, board 3x3, 3 in a row, 3 players (X, O, Δ), look-ahead 3, win/block=true, neighbourhood=true, ordering=true, beam=8, node limit=200000, random ties=true, rotate starter=true ===
+--- Game 1 of 10 (X starts) ---
+X -> (2,2)  search depth 3, 75 nodes, 0 ms
+O -> (3,2)  search depth 3, 472 nodes, 1 ms
+Δ -> (1,3)  search depth 3, 315 nodes, 1 ms
+X -> (1,1)  search depth 3, 198 nodes, 0 ms
+O -> (2,1)  search depth 3, 115 nodes, 0 ms
+Δ -> (3,3)  block X, 0 ms
+X -> (2,3)  search depth 3, 27 nodes, 1 ms
+O -> (1,2)  search depth 2, 6 nodes, 0 ms
+Δ -> (3,1)  search depth 1, 1 nodes, 0 ms
+   X O Δ
+   O X X
+   Δ O Δ
+Result: Draw after 9 moves (0.02 s)
+--- Game 2 of 10 (O starts) ---
+O -> (2,2)  search depth 3, 75 nodes, 0 ms
+Δ -> (2,1)  search depth 3, 472 nodes, 0 ms
+X -> (3,3)  search depth 3, 315 nodes, 0 ms
+O -> (1,3)  search depth 3, 198 nodes, 0 ms
+Δ -> (3,1)  search depth 3, 115 nodes, 1 ms
+X -> (1,1)  search depth 3, 60 nodes, 0 ms
+O -> (1,2)  search depth 3, 27 nodes, 0 ms
+Δ -> (2,3)  search depth 2, 6 nodes, 0 ms
+X -> (3,2)  block O, 0 ms
+   X O O
+   Δ O Δ
+   Δ X X
+Result: Draw after 9 moves (0.04 s)
+--- Game 3 of 10 (Δ starts) ---
+Δ -> (2,2)  search depth 3, 75 nodes, 0 ms
+X -> (1,2)  search depth 3, 472 nodes, 0 ms
+O -> (3,3)  search depth 3, 315 nodes, 0 ms
+Δ -> (3,1)  search depth 3, 198 nodes, 0 ms
+X -> (1,3)  search depth 3, 115 nodes, 0 ms
+O -> (1,1)  search depth 3, 60 nodes, 0 ms
+Δ -> (2,3)  search depth 3, 27 nodes, 0 ms
+X -> (2,1)  search depth 2, 6 nodes, 0 ms
+O -> (3,2)  search depth 1, 1 nodes, 0 ms
+   O X X
+   X Δ Δ
+   Δ O O
+Result: Draw after 9 moves (0.04 s)
+--- Game 4 of 10 (X starts) ---
+X -> (2,2)  search depth 3, 75 nodes, 0 ms
+O -> (1,3)  search depth 3, 472 nodes, 0 ms
+Δ -> (3,1)  search depth 3, 315 nodes, 0 ms
+X -> (1,1)  search depth 3, 198 nodes, 0 ms
+O -> (3,3)  search depth 3, 115 nodes, 0 ms
+Δ -> (2,1)  search depth 3, 60 nodes, 0 ms
+X -> (2,3)  block O, 0 ms
+O -> (1,2)  search depth 2, 6 nodes, 0 ms
+Δ -> (3,2)  search depth 1, 1 nodes, 0 ms
+   X O O
+   Δ X X
+   Δ Δ O
+Result: Draw after 9 moves (0.04 s)
+--- Game 5 of 10 (O starts) ---
+O -> (2,2)  search depth 3, 75 nodes, 0 ms
+Δ -> (3,2)  search depth 3, 472 nodes, 0 ms
+X -> (1,1)  search depth 3, 315 nodes, 0 ms
+O -> (1,3)  search depth 3, 198 nodes, 0 ms
+Δ -> (3,1)  search depth 3, 115 nodes, 1 ms
+X -> (3,3)  search depth 3, 60 nodes, 0 ms
+O -> (1,2)  search depth 3, 27 nodes, 0 ms
+Δ -> (2,3)  search depth 2, 6 nodes, 0 ms
+X -> (2,1)  search depth 1, 1 nodes, 0 ms
+   X O O
+   X O Δ
+   Δ Δ X
+Result: Draw after 9 moves (0.04 s)
+--- Game 6 of 10 (Δ starts) ---
+Δ -> (2,2)  search depth 3, 75 nodes, 1 ms
+X -> (3,1)  search depth 3, 472 nodes, 0 ms
+O -> (2,3)  search depth 3, 315 nodes, 0 ms
+Δ -> (1,1)  search depth 3, 198 nodes, 0 ms
+X -> (3,3)  search depth 3, 115 nodes, 0 ms
+O -> (1,3)  search depth 3, 60 nodes, 0 ms
+Δ -> (3,2)  block X, 0 ms
+X -> (1,2)  search depth 2, 6 nodes, 0 ms
+O -> (2,1)  search depth 1, 1 nodes, 0 ms
+   Δ X O
+   O Δ O
+   X Δ X
+Result: Draw after 9 moves (0.04 s)
+--- Game 7 of 10 (X starts) ---
+X -> (2,2)  search depth 3, 75 nodes, 0 ms
+O -> (1,3)  search depth 3, 472 nodes, 0 ms
+Δ -> (3,2)  search depth 3, 315 nodes, 0 ms
+X -> (1,1)  search depth 3, 198 nodes, 0 ms
+O -> (3,3)  search depth 3, 115 nodes, 0 ms
+Δ -> (2,3)  search depth 3, 60 nodes, 0 ms
+X -> (1,2)  search depth 3, 27 nodes, 0 ms
+O -> (3,1)  search depth 2, 6 nodes, 0 ms
+Δ -> (2,1)  search depth 1, 1 nodes, 0 ms
+   X X O
+   Δ X Δ
+   O Δ O
+Result: Draw after 9 moves (0.04 s)
+--- Game 8 of 10 (O starts) ---
+O -> (2,2)  search depth 3, 75 nodes, 0 ms
+Δ -> (1,2)  search depth 3, 472 nodes, 0 ms
+X -> (3,1)  search depth 3, 315 nodes, 0 ms
+O -> (3,3)  search depth 3, 198 nodes, 0 ms
+Δ -> (1,1)  search depth 3, 115 nodes, 1 ms
+X -> (3,2)  search depth 3, 60 nodes, 0 ms
+O -> (1,3)  block Δ, 0 ms
+Δ -> (2,3)  search depth 2, 6 nodes, 0 ms
+X -> (2,1)  search depth 1, 1 nodes, 0 ms
+   Δ Δ O
+   X O Δ
+   X X O
+Result: Draw after 9 moves (0.04 s)
+--- Game 9 of 10 (Δ starts) ---
+Δ -> (2,2)  search depth 3, 75 nodes, 0 ms
+X -> (2,3)  search depth 3, 472 nodes, 0 ms
+O -> (3,1)  search depth 3, 315 nodes, 0 ms
+Δ -> (1,1)  search depth 3, 198 nodes, 0 ms
+X -> (1,2)  search depth 3, 115 nodes, 0 ms
+O -> (3,3)  block Δ, 0 ms
+Δ -> (1,3)  search depth 3, 27 nodes, 0 ms
+X -> (3,2)  block O, 0 ms
+O -> (2,1)  search depth 1, 1 nodes, 0 ms
+   Δ X Δ
+   O Δ X
+   O X O
+Result: Draw after 9 moves (0.04 s)
+--- Game 10 of 10 (X starts) ---
+X -> (2,2)  search depth 3, 75 nodes, 0 ms
+O -> (2,1)  search depth 3, 472 nodes, 0 ms
+Δ -> (1,3)  search depth 3, 315 nodes, 0 ms
+X -> (3,3)  search depth 3, 198 nodes, 0 ms
+O -> (1,1)  search depth 3, 115 nodes, 0 ms
+Δ -> (2,3)  search depth 3, 60 nodes, 0 ms
+X -> (3,1)  block O, 0 ms
+O -> (3,2)  search depth 2, 6 nodes, 0 ms
+Δ -> (1,2)  search depth 1, 1 nodes, 0 ms
+   O Δ Δ
+   O X Δ
+   X O X
+Result: Draw after 9 moves (0.04 s)
+=== Finished 10 games. X 0W/0L/10D, O 0W/0L/10D, Δ 0W/0L/10D | total 0.4 s, moves stopped by node limit: 0 ===
+
+=== Task 5 run: N=10, board 4x4, 3 in a row, 3 players (X, O, Δ), look-ahead 3, win/block=true, neighbourhood=true, ordering=true, beam=8, node limit=200000, random ties=true, rotate starter=true ===
+--- Game 1 of 10 (X starts) ---
+X -> (3,3)  search depth 3, 80 nodes, 0 ms
+O -> (2,2)  search depth 3, 622 nodes, 1 ms
+Δ -> (2,3)  search depth 3, 664 nodes, 0 ms
+X -> (1,2)  search depth 3, 664 nodes, 0 ms
+O -> (3,1)  search depth 3, 664 nodes, 0 ms
+Δ -> (4,1)  search depth 3, 664 nodes, 0 ms
+X -> (1,3)  block O, 0 ms
+O -> (3,2)  block Δ, 0 ms
+Δ -> (1,4)  search depth 3, 388 nodes, 0 ms
+X -> (1,1)  win, 0 ms
+   X X X Δ
+   . O Δ .
+   O O X .
+   Δ . . .
+Result: X wins after 10 moves (0.03 s)
+--- Game 2 of 10 (O starts) ---
+O -> (3,3)  search depth 3, 80 nodes, 0 ms
+Δ -> (2,3)  search depth 3, 622 nodes, 0 ms
+X -> (3,2)  search depth 3, 664 nodes, 0 ms
+O -> (4,2)  search depth 3, 664 nodes, 1 ms
+Δ -> (2,2)  search depth 3, 664 nodes, 0 ms
+X -> (2,4)  block O, 0 ms
+O -> (2,1)  block Δ, 0 ms
+Δ -> (3,1)  search depth 3, 600 nodes, 0 ms
+X -> (3,4)  search depth 3, 472 nodes, 0 ms
+O -> (1,3)  block Δ, 0 ms
+Δ -> (4,4)  search depth 3, 158 nodes, 0 ms
+X -> (1,4)  win, 0 ms
+   . . O X
+   O Δ Δ X
+   Δ X O X
+   . O . Δ
+Result: X wins after 12 moves (0.06 s)
+--- Game 3 of 10 (Δ starts) ---
+Δ -> (3,3)  search depth 3, 80 nodes, 0 ms
+X -> (2,3)  search depth 3, 622 nodes, 0 ms
+O -> (2,2)  search depth 3, 664 nodes, 0 ms
+Δ -> (1,4)  search depth 3, 664 nodes, 1 ms
+X -> (3,2)  search depth 3, 664 nodes, 0 ms
+O -> (1,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,1)  block X, 0 ms
+X -> (3,1)  block O, 0 ms
+O -> (2,4)  search depth 3, 472 nodes, 1 ms
+Δ -> (4,3)  search depth 3, 315 nodes, 0 ms
+X -> (1,2)  search depth 3, 198 nodes, 0 ms
+O -> (4,2)  block Δ, 0 ms
+Δ -> (3,4)  block X, 0 ms
+X -> (4,4)  search depth 3, 27 nodes, 0 ms
+O -> (1,1)  search depth 2, 6 nodes, 0 ms
+Δ -> (2,1)  search depth 1, 1 nodes, 0 ms
+   O X O Δ
+   Δ O X O
+   X X Δ Δ
+   Δ O Δ X
+Result: Draw after 16 moves (0.09 s)
+--- Game 4 of 10 (X starts) ---
+X -> (3,3)  search depth 3, 80 nodes, 0 ms
+O -> (2,2)  search depth 3, 622 nodes, 1 ms
+Δ -> (3,2)  search depth 3, 664 nodes, 1 ms
+X -> (4,2)  search depth 3, 664 nodes, 1 ms
+O -> (2,3)  search depth 3, 664 nodes, 0 ms
+Δ -> (2,4)  block X, 0 ms
+X -> (2,1)  block O, 0 ms
+O -> (3,1)  search depth 3, 600 nodes, 0 ms
+Δ -> (3,4)  search depth 3, 472 nodes, 0 ms
+X -> (1,3)  block O, 0 ms
+O -> (1,4)  search depth 3, 158 nodes, 0 ms
+Δ -> (4,4)  win, 0 ms
+   . . X O
+   X O O Δ
+   O Δ X Δ
+   . X . Δ
+Result: Δ wins after 12 moves (0.07 s)
+--- Game 5 of 10 (O starts) ---
+O -> (3,3)  search depth 3, 80 nodes, 0 ms
+Δ -> (3,2)  search depth 3, 622 nodes, 0 ms
+X -> (2,3)  search depth 3, 664 nodes, 0 ms
+O -> (2,4)  search depth 3, 664 nodes, 0 ms
+Δ -> (2,2)  search depth 3, 664 nodes, 1 ms
+X -> (4,2)  block O, 0 ms
+O -> (1,2)  block Δ, 0 ms
+Δ -> (1,3)  search depth 3, 600 nodes, 0 ms
+X -> (4,3)  search depth 3, 472 nodes, 0 ms
+O -> (3,1)  block Δ, 0 ms
+Δ -> (1,1)  search depth 3, 158 nodes, 0 ms
+X -> (4,4)  win, 0 ms
+   Δ O Δ .
+   . Δ X O
+   O Δ O .
+   . X X X
+Result: X wins after 12 moves (0.07 s)
+--- Game 6 of 10 (Δ starts) ---
+Δ -> (3,3)  search depth 3, 80 nodes, 0 ms
+X -> (2,3)  search depth 3, 622 nodes, 0 ms
+O -> (2,2)  search depth 3, 664 nodes, 1 ms
+Δ -> (1,4)  search depth 3, 664 nodes, 0 ms
+X -> (3,2)  search depth 3, 664 nodes, 1 ms
+O -> (1,3)  search depth 3, 664 nodes, 0 ms
+Δ -> (4,1)  block X, 0 ms
+X -> (3,1)  block O, 0 ms
+O -> (2,4)  search depth 3, 472 nodes, 0 ms
+Δ -> (4,3)  search depth 3, 315 nodes, 0 ms
+X -> (1,2)  search depth 3, 198 nodes, 0 ms
+O -> (4,2)  block Δ, 0 ms
+Δ -> (3,4)  block X, 0 ms
+X -> (1,1)  search depth 3, 27 nodes, 0 ms
+O -> (2,1)  search depth 2, 6 nodes, 0 ms
+Δ -> (4,4)  search depth 1, 1 nodes, 0 ms
+   X X O Δ
+   O O X O
+   X X Δ Δ
+   Δ O Δ Δ
+Result: Draw after 16 moves (0.09 s)
+--- Game 7 of 10 (X starts) ---
+X -> (3,3)  search depth 3, 80 nodes, 0 ms
+O -> (2,3)  search depth 3, 622 nodes, 0 ms
+Δ -> (2,2)  search depth 3, 664 nodes, 1 ms
+X -> (2,4)  search depth 3, 664 nodes, 0 ms
+O -> (3,2)  search depth 3, 664 nodes, 0 ms
+Δ -> (4,2)  block X, 0 ms
+X -> (1,2)  search depth 3, 552 nodes, 0 ms
+O -> (1,4)  win, 0 ms
+   . X . O
+   . Δ O X
+   . O X .
+   . Δ . .
+Result: O wins after 8 moves (0.04 s)
+--- Game 8 of 10 (O starts) ---
+O -> (3,3)  search depth 3, 80 nodes, 0 ms
+Δ -> (2,2)  search depth 3, 622 nodes, 0 ms
+X -> (2,3)  search depth 3, 664 nodes, 0 ms
+O -> (1,2)  search depth 3, 664 nodes, 0 ms
+Δ -> (3,1)  search depth 3, 664 nodes, 1 ms
+X -> (4,1)  search depth 3, 664 nodes, 0 ms
+O -> (1,3)  block Δ, 0 ms
+Δ -> (3,2)  block X, 0 ms
+X -> (1,4)  search depth 3, 388 nodes, 0 ms
+O -> (1,1)  win, 0 ms
+   O O O X
+   . Δ X .
+   Δ Δ O .
+   X . . .
+Result: O wins after 10 moves (0.06 s)
+--- Game 9 of 10 (Δ starts) ---
+Δ -> (3,3)  search depth 3, 80 nodes, 0 ms
+X -> (2,3)  search depth 3, 622 nodes, 0 ms
+O -> (2,2)  search depth 3, 664 nodes, 0 ms
+Δ -> (2,4)  search depth 3, 664 nodes, 1 ms
+X -> (3,2)  search depth 3, 664 nodes, 0 ms
+O -> (4,2)  block Δ, 0 ms
+Δ -> (2,1)  search depth 3, 552 nodes, 0 ms
+X -> (4,1)  win, 0 ms
+   . . . .
+   Δ O X Δ
+   . X Δ .
+   X O . .
+Result: X wins after 8 moves (0.05 s)
+--- Game 10 of 10 (X starts) ---
+X -> (3,3)  search depth 3, 80 nodes, 0 ms
+O -> (2,3)  search depth 3, 622 nodes, 1 ms
+Δ -> (3,2)  search depth 3, 664 nodes, 1 ms
+X -> (4,2)  search depth 3, 664 nodes, 0 ms
+O -> (2,2)  search depth 3, 664 nodes, 0 ms
+Δ -> (2,4)  block X, 0 ms
+X -> (2,1)  block O, 0 ms
+O -> (3,1)  search depth 3, 600 nodes, 0 ms
+Δ -> (3,4)  search depth 3, 472 nodes, 1 ms
+X -> (1,3)  block O, 0 ms
+O -> (4,3)  search depth 3, 158 nodes, 0 ms
+Δ -> (1,4)  win, 0 ms
+   . . X Δ
+   X O O Δ
+   O Δ X Δ
+   . X O .
+Result: Δ wins after 12 moves (0.07 s)
+=== Finished 10 games. X 4W/4L/2D, O 2W/6L/2D, Δ 2W/6L/2D | total 0.7 s, moves stopped by node limit: 0 ===
+
+=== Task 5 run: N=10, board 5x5, 3 in a row, 3 players (X, O, Δ), look-ahead 3, win/block=true, neighbourhood=true, ordering=true, beam=8, node limit=200000, random ties=true, rotate starter=true ===
+--- Game 1 of 10 (X starts) ---
+X -> (3,3)  search depth 3, 83 nodes, 0 ms
+O -> (2,3)  search depth 3, 664 nodes, 0 ms
+Δ -> (3,4)  search depth 3, 664 nodes, 0 ms
+X -> (2,4)  search depth 3, 664 nodes, 0 ms
+O -> (4,2)  search depth 3, 664 nodes, 1 ms
+Δ -> (1,5)  block X, 0 ms
+X -> (3,2)  search depth 3, 664 nodes, 0 ms
+O -> (4,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (3,1)  block X, 0 ms
+X -> (3,5)  search depth 3, 552 nodes, 0 ms
+O -> (4,1)  win, 0 ms
+   . . . . Δ
+   . . O X .
+   Δ X X Δ X
+   O O O . .
+   . . . . .
+Result: O wins after 11 moves (0.04 s)
+--- Game 2 of 10 (O starts) ---
+O -> (3,3)  search depth 3, 83 nodes, 0 ms
+Δ -> (2,3)  search depth 3, 664 nodes, 0 ms
+X -> (4,3)  search depth 3, 664 nodes, 1 ms
+O -> (4,4)  search depth 3, 664 nodes, 1 ms
+Δ -> (2,2)  search depth 3, 664 nodes, 1 ms
+X -> (5,5)  block O, 0 ms
+O -> (2,1)  search depth 3, 552 nodes, 0 ms
+Δ -> (2,4)  win, 0 ms
+   . . . . .
+   O Δ Δ Δ .
+   . . O . .
+   . . X O .
+   . . . . X
+Result: Δ wins after 8 moves (0.05 s)
+--- Game 3 of 10 (Δ starts) ---
+Δ -> (3,3)  search depth 3, 83 nodes, 1 ms
+X -> (3,4)  search depth 3, 664 nodes, 1 ms
+O -> (2,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (2,4)  search depth 3, 664 nodes, 0 ms
+X -> (4,2)  search depth 3, 664 nodes, 1 ms
+O -> (1,5)  block Δ, 0 ms
+Δ -> (4,3)  search depth 3, 664 nodes, 1 ms
+X -> (3,2)  search depth 3, 664 nodes, 1 ms
+O -> (5,3)  block Δ, 0 ms
+Δ -> (4,4)  search depth 3, 552 nodes, 0 ms
+X -> (2,2)  win, 0 ms
+   . . . . O
+   . X O Δ .
+   . X Δ X .
+   . X Δ Δ .
+   . . O . .
+Result: X wins after 11 moves (0.07 s)
+--- Game 4 of 10 (X starts) ---
+X -> (3,3)  search depth 3, 83 nodes, 0 ms
+O -> (4,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (3,4)  search depth 3, 664 nodes, 1 ms
+X -> (4,4)  search depth 3, 664 nodes, 1 ms
+O -> (2,2)  search depth 3, 664 nodes, 1 ms
+Δ -> (5,5)  block X, 0 ms
+X -> (3,2)  search depth 3, 664 nodes, 0 ms
+O -> (2,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (3,1)  block X, 0 ms
+X -> (4,1)  search depth 3, 552 nodes, 0 ms
+O -> (2,1)  win, 0 ms
+   . . . . .
+   O O O . .
+   Δ X X Δ .
+   X . O X .
+   . . . . Δ
+Result: O wins after 11 moves (0.07 s)
+--- Game 5 of 10 (O starts) ---
+O -> (3,3)  search depth 3, 83 nodes, 0 ms
+Δ -> (3,2)  search depth 3, 664 nodes, 1 ms
+X -> (3,4)  search depth 3, 664 nodes, 1 ms
+O -> (4,4)  search depth 3, 664 nodes, 0 ms
+Δ -> (2,2)  search depth 3, 664 nodes, 1 ms
+X -> (5,5)  block O, 0 ms
+O -> (4,5)  search depth 3, 552 nodes, 0 ms
+Δ -> (1,2)  win, 0 ms
+   . Δ . . .
+   . Δ . . .
+   . Δ O X .
+   . . . O O
+   . . . . X
+Result: Δ wins after 8 moves (0.05 s)
+--- Game 6 of 10 (Δ starts) ---
+Δ -> (3,3)  search depth 3, 83 nodes, 0 ms
+X -> (3,2)  search depth 3, 664 nodes, 1 ms
+O -> (4,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,2)  search depth 3, 664 nodes, 1 ms
+X -> (2,4)  search depth 3, 664 nodes, 1 ms
+O -> (5,1)  block Δ, 0 ms
+Δ -> (2,3)  search depth 3, 664 nodes, 0 ms
+X -> (3,4)  search depth 3, 664 nodes, 0 ms
+O -> (1,3)  block Δ, 0 ms
+Δ -> (4,4)  search depth 3, 552 nodes, 1 ms
+X -> (1,4)  win, 0 ms
+   . . O X .
+   . . Δ X .
+   . X Δ X .
+   . Δ O Δ .
+   O . . . .
+Result: X wins after 11 moves (0.07 s)
+--- Game 7 of 10 (X starts) ---
+X -> (3,3)  search depth 3, 83 nodes, 0 ms
+O -> (3,4)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,3)  search depth 3, 664 nodes, 1 ms
+X -> (4,4)  search depth 3, 664 nodes, 0 ms
+O -> (2,2)  search depth 3, 664 nodes, 1 ms
+Δ -> (5,5)  block X, 0 ms
+X -> (2,3)  search depth 3, 664 nodes, 1 ms
+O -> (3,2)  search depth 3, 664 nodes, 0 ms
+Δ -> (1,3)  block X, 0 ms
+X -> (1,4)  search depth 3, 552 nodes, 1 ms
+O -> (1,2)  win, 0 ms
+   . O Δ X .
+   . O X . .
+   . O X O .
+   . . Δ X .
+   . . . . Δ
+Result: O wins after 11 moves (0.07 s)
+--- Game 8 of 10 (O starts) ---
+O -> (3,3)  search depth 3, 83 nodes, 0 ms
+Δ -> (2,3)  search depth 3, 664 nodes, 1 ms
+X -> (3,2)  search depth 3, 664 nodes, 0 ms
+O -> (2,2)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,4)  search depth 3, 664 nodes, 1 ms
+X -> (1,1)  block O, 0 ms
+O -> (3,4)  search depth 3, 664 nodes, 0 ms
+Δ -> (4,3)  search depth 3, 664 nodes, 0 ms
+X -> (3,5)  block O, 0 ms
+O -> (1,3)  search depth 3, 552 nodes, 0 ms
+Δ -> (4,5)  win, 0 ms
+   X . O . .
+   . O Δ . .
+   . X O O X
+   . . Δ Δ Δ
+   . . . . .
+Result: Δ wins after 11 moves (0.07 s)
+--- Game 9 of 10 (Δ starts) ---
+Δ -> (3,3)  search depth 3, 83 nodes, 1 ms
+X -> (3,2)  search depth 3, 664 nodes, 0 ms
+O -> (4,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,2)  search depth 3, 664 nodes, 0 ms
+X -> (2,4)  search depth 3, 664 nodes, 0 ms
+O -> (5,1)  block Δ, 0 ms
+Δ -> (2,3)  search depth 3, 664 nodes, 0 ms
+X -> (3,4)  search depth 3, 664 nodes, 1 ms
+O -> (1,3)  block Δ, 0 ms
+Δ -> (4,5)  search depth 3, 552 nodes, 1 ms
+X -> (4,4)  win, 0 ms
+   . . O . .
+   . . Δ X .
+   . X Δ X .
+   . Δ O X Δ
+   O . . . .
+Result: X wins after 11 moves (0.07 s)
+--- Game 10 of 10 (X starts) ---
+X -> (3,3)  search depth 3, 83 nodes, 0 ms
+O -> (3,2)  search depth 3, 664 nodes, 0 ms
+Δ -> (3,4)  search depth 3, 664 nodes, 0 ms
+X -> (4,4)  search depth 3, 664 nodes, 1 ms
+O -> (2,2)  search depth 3, 664 nodes, 1 ms
+Δ -> (5,5)  block X, 0 ms
+X -> (4,3)  search depth 3, 552 nodes, 1 ms
+O -> (1,2)  win, 0 ms
+   . O . . .
+   . O . . .
+   . O X Δ .
+   . . X X .
+   . . . . Δ
+Result: O wins after 8 moves (0.05 s)
+=== Finished 10 games. X 3W/7L/0D, O 4W/6L/0D, Δ 3W/7L/0D | total 0.7 s, moves stopped by node limit: 0 ===
+
+=== Task 5 run: N=10, board 6x6, 3 in a row, 3 players (X, O, Δ), look-ahead 3, win/block=true, neighbourhood=true, ordering=true, beam=8, node limit=200000, random ties=true, rotate starter=true ===
+--- Game 1 of 10 (X starts) ---
+X -> (4,4)  search depth 3, 83 nodes, 0 ms
+O -> (3,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (3,2)  search depth 3, 664 nodes, 1 ms
+X -> (4,3)  search depth 3, 664 nodes, 0 ms
+O -> (4,2)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,5)  block X, 0 ms
+X -> (2,3)  search depth 3, 552 nodes, 1 ms
+O -> (2,4)  win, 0 ms
+   . . . . . .
+   . . X O . .
+   . Δ O . . .
+   . O X X Δ .
+   . . . . . .
+   . . . . . .
+Result: O wins after 8 moves (0.03 s)
+--- Game 2 of 10 (O starts) ---
+O -> (4,4)  search depth 3, 83 nodes, 0 ms
+Δ -> (3,4)  search depth 3, 664 nodes, 1 ms
+X -> (3,5)  search depth 3, 664 nodes, 0 ms
+O -> (4,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,5)  search depth 3, 664 nodes, 1 ms
+X -> (4,2)  block O, 0 ms
+O -> (5,6)  search depth 3, 552 nodes, 0 ms
+Δ -> (2,3)  win, 0 ms
+   . . . . . .
+   . . Δ . . .
+   . . . Δ X .
+   . X O O Δ .
+   . . . . . O
+   . . . . . .
+Result: Δ wins after 8 moves (0.05 s)
+--- Game 3 of 10 (Δ starts) ---
+Δ -> (4,4)  search depth 3, 83 nodes, 0 ms
+X -> (3,4)  search depth 3, 664 nodes, 1 ms
+O -> (3,5)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,3)  search depth 3, 664 nodes, 1 ms
+X -> (4,5)  search depth 3, 664 nodes, 0 ms
+O -> (4,2)  block Δ, 0 ms
+Δ -> (5,4)  search depth 3, 552 nodes, 1 ms
+X -> (2,3)  win, 0 ms
+   . . . . . .
+   . . X . . .
+   . . . X O .
+   . O Δ Δ X .
+   . . . Δ . .
+   . . . . . .
+Result: X wins after 8 moves (0.05 s)
+--- Game 4 of 10 (X starts) ---
+X -> (4,4)  search depth 3, 83 nodes, 0 ms
+O -> (4,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (5,3)  search depth 3, 664 nodes, 0 ms
+X -> (3,4)  search depth 3, 664 nodes, 1 ms
+O -> (5,4)  search depth 3, 664 nodes, 1 ms
+Δ -> (2,4)  block X, 0 ms
+X -> (4,5)  search depth 3, 552 nodes, 1 ms
+O -> (6,5)  win, 1 ms
+   . . . . . .
+   . . . Δ . .
+   . . . X . .
+   . . O X X .
+   . . Δ O . .
+   . . . . O .
+Result: O wins after 8 moves (0.06 s)
+--- Game 5 of 10 (O starts) ---
+O -> (4,4)  search depth 3, 83 nodes, 0 ms
+Δ -> (3,3)  search depth 3, 664 nodes, 0 ms
+X -> (2,3)  search depth 3, 664 nodes, 1 ms
+O -> (3,4)  search depth 3, 664 nodes, 1 ms
+Δ -> (2,4)  search depth 3, 664 nodes, 1 ms
+X -> (5,4)  block O, 0 ms
+O -> (4,3)  search depth 3, 552 nodes, 1 ms
+Δ -> (4,2)  win, 0 ms
+   . . . . . .
+   . . X Δ . .
+   . . Δ O . .
+   . Δ O O . .
+   . . . X . .
+   . . . . . .
+Result: Δ wins after 8 moves (0.06 s)
+--- Game 6 of 10 (Δ starts) ---
+Δ -> (4,4)  search depth 3, 83 nodes, 0 ms
+X -> (4,3)  search depth 3, 664 nodes, 0 ms
+O -> (5,3)  search depth 3, 664 nodes, 0 ms
+Δ -> (3,4)  search depth 3, 664 nodes, 1 ms
+X -> (5,4)  search depth 3, 664 nodes, 0 ms
+O -> (2,4)  block Δ, 0 ms
+Δ -> (3,2)  search depth 3, 552 nodes, 1 ms
+X -> (6,5)  win, 0 ms
+   . . . . . .
+   . . . O . .
+   . Δ . Δ . .
+   . . X Δ . .
+   . . O X . .
+   . . . . X .
+Result: X wins after 8 moves (0.06 s)
+--- Game 7 of 10 (X starts) ---
+X -> (4,4)  search depth 3, 83 nodes, 0 ms
+O -> (4,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (5,3)  search depth 3, 664 nodes, 1 ms
+X -> (3,4)  search depth 3, 664 nodes, 0 ms
+O -> (5,4)  search depth 3, 664 nodes, 0 ms
+Δ -> (2,4)  block X, 0 ms
+X -> (4,5)  search depth 3, 552 nodes, 0 ms
+O -> (6,5)  win, 0 ms
+   . . . . . .
+   . . . Δ . .
+   . . . X . .
+   . . O X X .
+   . . Δ O . .
+   . . . . O .
+Result: O wins after 8 moves (0.06 s)
+--- Game 8 of 10 (O starts) ---
+O -> (4,4)  search depth 3, 83 nodes, 0 ms
+Δ -> (3,3)  search depth 3, 664 nodes, 1 ms
+X -> (2,3)  search depth 3, 664 nodes, 1 ms
+O -> (3,4)  search depth 3, 664 nodes, 1 ms
+Δ -> (2,4)  search depth 3, 664 nodes, 1 ms
+X -> (5,4)  block O, 0 ms
+O -> (4,2)  search depth 3, 552 nodes, 0 ms
+Δ -> (1,5)  win, 0 ms
+   . . . . Δ .
+   . . X Δ . .
+   . . Δ O . .
+   . O . O . .
+   . . . X . .
+   . . . . . .
+Result: Δ wins after 8 moves (0.05 s)
+--- Game 9 of 10 (Δ starts) ---
+Δ -> (4,4)  search depth 3, 83 nodes, 0 ms
+X -> (3,4)  search depth 3, 664 nodes, 1 ms
+O -> (3,5)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,3)  search depth 3, 664 nodes, 1 ms
+X -> (4,5)  search depth 3, 664 nodes, 1 ms
+O -> (4,2)  block Δ, 0 ms
+Δ -> (5,4)  search depth 3, 552 nodes, 1 ms
+X -> (5,6)  win, 0 ms
+   . . . . . .
+   . . . . . .
+   . . . X O .
+   . O Δ Δ X .
+   . . . Δ . X
+   . . . . . .
+Result: X wins after 8 moves (0.06 s)
+--- Game 10 of 10 (X starts) ---
+X -> (4,4)  search depth 3, 83 nodes, 0 ms
+O -> (4,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (5,3)  search depth 3, 664 nodes, 1 ms
+X -> (3,4)  search depth 3, 664 nodes, 1 ms
+O -> (5,4)  search depth 3, 664 nodes, 1 ms
+Δ -> (2,4)  block X, 0 ms
+X -> (5,5)  search depth 3, 552 nodes, 1 ms
+O -> (3,2)  win, 0 ms
+   . . . . . .
+   . . . Δ . .
+   . O . X . .
+   . . O X . .
+   . . Δ O X .
+   . . . . . .
+Result: O wins after 8 moves (0.06 s)
+=== Finished 10 games. X 3W/7L/0D, O 4W/6L/0D, Δ 3W/7L/0D | total 0.6 s, moves stopped by node limit: 0 ===
+
+=== Task 5 run: N=10, board 7x7, 3 in a row, 3 players (X, O, Δ), look-ahead 3, win/block=true, neighbourhood=true, ordering=true, beam=8, node limit=200000, random ties=true, rotate starter=true ===
+--- Game 1 of 10 (X starts) ---
+X -> (4,4)  search depth 3, 83 nodes, 0 ms
+O -> (4,5)  search depth 3, 664 nodes, 1 ms
+Δ -> (5,5)  search depth 3, 664 nodes, 1 ms
+X -> (5,3)  search depth 3, 664 nodes, 1 ms
+O -> (3,5)  search depth 3, 664 nodes, 1 ms
+Δ -> (6,2)  block X, 0 ms
+X -> (2,5)  block O, 0 ms
+O -> (3,4)  search depth 3, 664 nodes, 1 ms
+Δ -> (3,3)  search depth 3, 664 nodes, 1 ms
+X -> (2,3)  search depth 3, 496 nodes, 0 ms
+O -> (3,6)  win, 0 ms
+   . . . . . . .
+   . . X . X . .
+   . . Δ O O O .
+   . . . X O . .
+   . . X . Δ . .
+   . Δ . . . . .
+   . . . . . . .
+Result: O wins after 11 moves (0.06 s)
+--- Game 2 of 10 (O starts) ---
+O -> (4,4)  search depth 3, 83 nodes, 0 ms
+Δ -> (4,3)  search depth 3, 664 nodes, 1 ms
+X -> (5,3)  search depth 3, 664 nodes, 2 ms
+O -> (5,5)  search depth 3, 664 nodes, 1 ms
+Δ -> (3,3)  search depth 3, 664 nodes, 1 ms
+X -> (6,6)  block O, 0 ms
+O -> (2,3)  block Δ, 0 ms
+Δ -> (3,4)  search depth 3, 664 nodes, 1 ms
+X -> (2,5)  search depth 3, 664 nodes, 1 ms
+O -> (5,6)  search depth 3, 496 nodes, 0 ms
+Δ -> (3,2)  win, 0 ms
+   . . . . . . .
+   . . O . X . .
+   . Δ Δ Δ . . .
+   . . Δ O . . .
+   . . X . O O .
+   . . . . . X .
+   . . . . . . .
+Result: Δ wins after 11 moves (0.09 s)
+--- Game 3 of 10 (Δ starts) ---
+Δ -> (4,4)  search depth 3, 83 nodes, 0 ms
+X -> (5,4)  search depth 3, 664 nodes, 1 ms
+O -> (5,5)  search depth 3, 664 nodes, 1 ms
+Δ -> (3,5)  search depth 3, 664 nodes, 1 ms
+X -> (5,3)  search depth 3, 664 nodes, 1 ms
+O -> (2,6)  block Δ, 0 ms
+Δ -> (5,2)  block X, 0 ms
+X -> (4,3)  search depth 3, 664 nodes, 1 ms
+O -> (4,5)  search depth 3, 664 nodes, 0 ms
+Δ -> (3,6)  search depth 3, 440 nodes, 1 ms
+X -> (6,5)  win, 0 ms
+   . . . . . . .
+   . . . . . O .
+   . . . . Δ Δ .
+   . . X Δ O . .
+   . Δ X X O . .
+   . . . . X . .
+   . . . . . . .
+Result: X wins after 11 moves (0.08 s)
+--- Game 4 of 10 (X starts) ---
+X -> (4,4)  search depth 3, 83 nodes, 0 ms
+O -> (4,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (3,3)  search depth 3, 664 nodes, 1 ms
+X -> (3,5)  search depth 3, 664 nodes, 1 ms
+O -> (5,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (2,6)  block X, 0 ms
+X -> (6,3)  block O, 0 ms
+O -> (5,4)  search depth 3, 664 nodes, 1 ms
+Δ -> (2,5)  search depth 3, 664 nodes, 1 ms
+X -> (5,5)  search depth 3, 440 nodes, 0 ms
+O -> (3,2)  win, 0 ms
+   . . . . . . .
+   . . . . Δ Δ .
+   . O Δ . X . .
+   . . O X . . .
+   . . O O X . .
+   . . X . . . .
+   . . . . . . .
+Result: O wins after 11 moves (0.08 s)
+--- Game 5 of 10 (O starts) ---
+O -> (4,4)  search depth 3, 83 nodes, 0 ms
+Δ -> (4,3)  search depth 3, 664 nodes, 1 ms
+X -> (5,3)  search depth 3, 664 nodes, 1 ms
+O -> (5,5)  search depth 3, 664 nodes, 1 ms
+Δ -> (3,3)  search depth 3, 664 nodes, 1 ms
+X -> (6,6)  block O, 0 ms
+O -> (2,3)  block Δ, 0 ms
+Δ -> (3,4)  search depth 3, 664 nodes, 2 ms
+X -> (6,4)  search depth 3, 664 nodes, 1 ms
+O -> (7,5)  search depth 3, 440 nodes, 1 ms
+Δ -> (3,5)  win, 0 ms
+   . . . . . . .
+   . . O . . . .
+   . . Δ Δ Δ . .
+   . . Δ O . . .
+   . . X . O . .
+   . . . X . X .
+   . . . . O . .
+Result: Δ wins after 11 moves (0.09 s)
+--- Game 6 of 10 (Δ starts) ---
+Δ -> (4,4)  search depth 3, 83 nodes, 1 ms
+X -> (4,3)  search depth 3, 664 nodes, 1 ms
+O -> (3,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (3,5)  search depth 3, 664 nodes, 1 ms
+X -> (5,3)  search depth 3, 664 nodes, 1 ms
+O -> (2,6)  block Δ, 0 ms
+Δ -> (6,3)  block X, 0 ms
+X -> (5,4)  search depth 3, 664 nodes, 1 ms
+O -> (5,5)  search depth 3, 664 nodes, 0 ms
+Δ -> (6,4)  search depth 3, 496 nodes, 1 ms
+X -> (6,5)  win, 0 ms
+   . . . . . . .
+   . . . . . O .
+   . . O . Δ . .
+   . . X Δ . . .
+   . . X X O . .
+   . . Δ Δ X . .
+   . . . . . . .
+Result: X wins after 11 moves (0.08 s)
+--- Game 7 of 10 (X starts) ---
+X -> (4,4)  search depth 3, 83 nodes, 0 ms
+O -> (5,4)  search depth 3, 664 nodes, 1 ms
+Δ -> (5,5)  search depth 3, 664 nodes, 0 ms
+X -> (3,5)  search depth 3, 664 nodes, 1 ms
+O -> (5,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (2,6)  block X, 0 ms
+X -> (5,2)  block O, 0 ms
+O -> (4,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (3,2)  search depth 3, 664 nodes, 1 ms
+X -> (6,3)  search depth 3, 496 nodes, 1 ms
+O -> (3,3)  win, 0 ms
+   . . . . . . .
+   . . . . . Δ .
+   . Δ O . X . .
+   . . O X . . .
+   . X O O Δ . .
+   . . X . . . .
+   . . . . . . .
+Result: O wins after 11 moves (0.08 s)
+--- Game 8 of 10 (O starts) ---
+O -> (4,4)  search depth 3, 83 nodes, 0 ms
+Δ -> (4,5)  search depth 3, 664 nodes, 1 ms
+X -> (3,5)  search depth 3, 664 nodes, 1 ms
+O -> (3,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (5,5)  search depth 3, 664 nodes, 1 ms
+X -> (2,2)  block O, 1 ms
+O -> (6,5)  block Δ, 0 ms
+Δ -> (5,4)  search depth 3, 664 nodes, 1 ms
+X -> (5,3)  search depth 3, 664 nodes, 0 ms
+O -> (6,3)  search depth 3, 496 nodes, 1 ms
+Δ -> (5,6)  win, 0 ms
+   . . . . . . .
+   . X . . . . .
+   . . O . X . .
+   . . . O Δ . .
+   . . X Δ Δ Δ .
+   . . O . O . .
+   . . . . . . .
+Result: Δ wins after 11 moves (0.08 s)
+--- Game 9 of 10 (Δ starts) ---
+Δ -> (4,4)  search depth 3, 83 nodes, 1 ms
+X -> (5,4)  search depth 3, 664 nodes, 1 ms
+O -> (5,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (3,3)  search depth 3, 664 nodes, 1 ms
+X -> (5,5)  search depth 3, 664 nodes, 1 ms
+O -> (2,2)  block Δ, 0 ms
+Δ -> (5,6)  block X, 0 ms
+X -> (4,5)  search depth 3, 664 nodes, 1 ms
+O -> (3,6)  search depth 3, 664 nodes, 1 ms
+Δ -> (2,3)  search depth 3, 496 nodes, 1 ms
+X -> (6,3)  win, 0 ms
+   . . . . . . .
+   . O Δ . . . .
+   . . Δ . . O .
+   . . . Δ X . .
+   . . O X X Δ .
+   . . X . . . .
+   . . . . . . .
+Result: X wins after 11 moves (0.09 s)
+--- Game 10 of 10 (X starts) ---
+X -> (4,4)  search depth 3, 83 nodes, 0 ms
+O -> (3,4)  search depth 3, 664 nodes, 1 ms
+Δ -> (3,3)  search depth 3, 664 nodes, 1 ms
+X -> (5,3)  search depth 3, 664 nodes, 1 ms
+O -> (3,5)  search depth 3, 664 nodes, 1 ms
+Δ -> (6,2)  block X, 0 ms
+X -> (3,6)  block O, 0 ms
+O -> (4,5)  search depth 3, 664 nodes, 1 ms
+Δ -> (5,2)  search depth 3, 664 nodes, 0 ms
+X -> (6,3)  search depth 3, 440 nodes, 1 ms
+O -> (2,5)  win, 0 ms
+   . . . . . . .
+   . . . . O . .
+   . . Δ O O X .
+   . . . X O . .
+   . Δ X . . . .
+   . Δ X . . . .
+   . . . . . . .
+Result: O wins after 11 moves (0.08 s)
+=== Finished 10 games. X 3W/7L/0D, O 4W/6L/0D, Δ 3W/7L/0D | total 0.9 s, moves stopped by node limit: 0 ===
+
+=== Task 5 run: N=10, board 8x8, 3 in a row, 3 players (X, O, Δ), look-ahead 3, win/block=true, neighbourhood=true, ordering=true, beam=8, node limit=200000, random ties=true, rotate starter=true ===
+--- Game 1 of 10 (X starts) ---
+X -> (5,5)  search depth 3, 83 nodes, 0 ms
+O -> (6,5)  search depth 3, 664 nodes, 1 ms
+Δ -> (6,4)  search depth 3, 664 nodes, 1 ms
+X -> (6,6)  search depth 3, 664 nodes, 2 ms
+O -> (4,4)  search depth 3, 664 nodes, 1 ms
+Δ -> (7,7)  block X, 0 ms
+X -> (5,4)  search depth 3, 664 nodes, 2 ms
+O -> (5,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (5,6)  block X, 0 ms
+X -> (4,3)  search depth 3, 552 nodes, 1 ms
+O -> (3,5)  win, 1 ms
+   . . . . . . . .
+   . . . . . . . .
+   . . . . O . . .
+   . . X O . . . .
+   . . O X X Δ . .
+   . . . Δ O X . .
+   . . . . . . Δ .
+   . . . . . . . .
+Result: O wins after 11 moves (0.07 s)
+--- Game 2 of 10 (O starts) ---
+O -> (5,5)  search depth 3, 83 nodes, 1 ms
+Δ -> (6,5)  search depth 3, 664 nodes, 1 ms
+X -> (6,4)  search depth 3, 664 nodes, 1 ms
+O -> (6,6)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,4)  search depth 3, 664 nodes, 1 ms
+X -> (7,7)  block O, 0 ms
+O -> (5,7)  search depth 3, 664 nodes, 1 ms
+Δ -> (7,5)  search depth 3, 664 nodes, 1 ms
+X -> (5,6)  search depth 3, 552 nodes, 0 ms
+O -> (4,8)  win, 0 ms
+   . . . . . . . .
+   . . . . . . . .
+   . . . . . . . .
+   . . . Δ . . . O
+   . . . . O X O .
+   . . . X Δ O . .
+   . . . . Δ . X .
+   . . . . . . . .
+Result: O wins after 10 moves (0.08 s)
+--- Game 3 of 10 (Δ starts) ---
+Δ -> (5,5)  search depth 3, 83 nodes, 1 ms
+X -> (5,6)  search depth 3, 664 nodes, 1 ms
+O -> (6,6)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,5)  search depth 3, 664 nodes, 1 ms
+X -> (6,5)  search depth 3, 664 nodes, 1 ms
+O -> (3,5)  block Δ, 0 ms
+Δ -> (4,4)  search depth 3, 552 nodes, 2 ms
+X -> (4,7)  win, 0 ms
+   . . . . . . . .
+   . . . . . . . .
+   . . . . O . . .
+   . . . Δ Δ . X .
+   . . . . Δ X . .
+   . . . . X O . .
+   . . . . . . . .
+   . . . . . . . .
+Result: X wins after 8 moves (0.07 s)
+--- Game 4 of 10 (X starts) ---
+X -> (5,5)  search depth 3, 83 nodes, 0 ms
+O -> (5,6)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,6)  search depth 3, 664 nodes, 1 ms
+X -> (6,6)  search depth 3, 664 nodes, 1 ms
+O -> (4,4)  search depth 3, 664 nodes, 1 ms
+Δ -> (7,7)  block X, 0 ms
+X -> (7,5)  search depth 3, 664 nodes, 1 ms
+O -> (5,7)  search depth 3, 664 nodes, 1 ms
+Δ -> (8,4)  search depth 3, 552 nodes, 1 ms
+X -> (6,5)  win, 0 ms
+   . . . . . . . .
+   . . . . . . . .
+   . . . . . . . .
+   . . . O . Δ . .
+   . . . . X O O .
+   . . . . X X . .
+   . . . . X . Δ .
+   . . . Δ . . . .
+Result: X wins after 10 moves (0.08 s)
+--- Game 5 of 10 (O starts) ---
+O -> (5,5)  search depth 3, 83 nodes, 0 ms
+Δ -> (6,5)  search depth 3, 664 nodes, 1 ms
+X -> (6,4)  search depth 3, 664 nodes, 1 ms
+O -> (6,6)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,4)  search depth 3, 664 nodes, 1 ms
+X -> (7,7)  block O, 0 ms
+O -> (5,7)  search depth 3, 664 nodes, 1 ms
+Δ -> (5,4)  search depth 3, 664 nodes, 1 ms
+X -> (4,5)  search depth 3, 496 nodes, 1 ms
+O -> (4,8)  win, 0 ms
+   . . . . . . . .
+   . . . . . . . .
+   . . . . . . . .
+   . . . Δ X . . O
+   . . . Δ O . O .
+   . . . X Δ O . .
+   . . . . . . X .
+   . . . . . . . .
+Result: O wins after 10 moves (0.08 s)
+--- Game 6 of 10 (Δ starts) ---
+Δ -> (5,5)  search depth 3, 83 nodes, 0 ms
+X -> (5,6)  search depth 3, 664 nodes, 1 ms
+O -> (6,6)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,5)  search depth 3, 664 nodes, 2 ms
+X -> (6,5)  search depth 3, 664 nodes, 2 ms
+O -> (3,5)  block Δ, 0 ms
+Δ -> (6,4)  search depth 3, 552 nodes, 1 ms
+X -> (4,7)  win, 0 ms
+   . . . . . . . .
+   . . . . . . . .
+   . . . . O . . .
+   . . . . Δ . X .
+   . . . . Δ X . .
+   . . . Δ X O . .
+   . . . . . . . .
+   . . . . . . . .
+Result: X wins after 8 moves (0.07 s)
+--- Game 7 of 10 (X starts) ---
+X -> (5,5)  search depth 3, 83 nodes, 0 ms
+O -> (6,5)  search depth 3, 664 nodes, 1 ms
+Δ -> (6,6)  search depth 3, 664 nodes, 1 ms
+X -> (5,4)  search depth 3, 664 nodes, 1 ms
+O -> (5,6)  search depth 3, 664 nodes, 1 ms
+Δ -> (5,3)  block X, 0 ms
+X -> (6,4)  search depth 3, 552 nodes, 1 ms
+O -> (4,7)  win, 0 ms
+   . . . . . . . .
+   . . . . . . . .
+   . . . . . . . .
+   . . . . . . O .
+   . . Δ X X O . .
+   . . . X O Δ . .
+   . . . . . . . .
+   . . . . . . . .
+Result: O wins after 8 moves (0.07 s)
+--- Game 8 of 10 (O starts) ---
+O -> (5,5)  search depth 3, 83 nodes, 0 ms
+Δ -> (5,6)  search depth 3, 664 nodes, 1 ms
+X -> (4,6)  search depth 3, 664 nodes, 2 ms
+O -> (6,6)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,4)  search depth 3, 664 nodes, 2 ms
+X -> (7,7)  block O, 0 ms
+O -> (4,5)  search depth 3, 664 nodes, 1 ms
+Δ -> (3,5)  search depth 3, 664 nodes, 1 ms
+X -> (6,5)  block O, 0 ms
+O -> (2,6)  search depth 3, 552 nodes, 1 ms
+Δ -> (5,3)  win, 0 ms
+   . . . . . . . .
+   . . . . . O . .
+   . . . . Δ . . .
+   . . . Δ O X . .
+   . . Δ . O Δ . .
+   . . . . X O . .
+   . . . . . . X .
+   . . . . . . . .
+Result: Δ wins after 11 moves (0.09 s)
+--- Game 9 of 10 (Δ starts) ---
+Δ -> (5,5)  search depth 3, 83 nodes, 0 ms
+X -> (5,6)  search depth 3, 664 nodes, 1 ms
+O -> (6,6)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,5)  search depth 3, 664 nodes, 1 ms
+X -> (6,5)  search depth 3, 664 nodes, 1 ms
+O -> (3,5)  block Δ, 0 ms
+Δ -> (7,4)  search depth 3, 552 nodes, 1 ms
+X -> (4,7)  win, 0 ms
+   . . . . . . . .
+   . . . . . . . .
+   . . . . O . . .
+   . . . . Δ . X .
+   . . . . Δ X . .
+   . . . . X O . .
+   . . . Δ . . . .
+   . . . . . . . .
+Result: X wins after 8 moves (0.07 s)
+--- Game 10 of 10 (X starts) ---
+X -> (5,5)  search depth 3, 83 nodes, 0 ms
+O -> (5,6)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,6)  search depth 3, 664 nodes, 1 ms
+X -> (6,6)  search depth 3, 664 nodes, 1 ms
+O -> (4,4)  search depth 3, 664 nodes, 2 ms
+Δ -> (7,7)  block X, 0 ms
+X -> (4,5)  search depth 3, 664 nodes, 1 ms
+O -> (3,5)  search depth 3, 664 nodes, 1 ms
+Δ -> (6,5)  block X, 0 ms
+X -> (5,3)  search depth 3, 552 nodes, 1 ms
+O -> (2,6)  win, 0 ms
+   . . . . . . . .
+   . . . . . O . .
+   . . . . O . . .
+   . . . O X Δ . .
+   . . X . X O . .
+   . . . . Δ X . .
+   . . . . . . Δ .
+   . . . . . . . .
+Result: O wins after 11 moves (0.09 s)
+=== Finished 10 games. X 4W/6L/0D, O 5W/5L/0D, Δ 1W/9L/0D | total 0.8 s, moves stopped by node limit: 0 ===
+
+=== Task 5 run: N=10, board 9x9, 3 in a row, 3 players (X, O, Δ), look-ahead 3, win/block=true, neighbourhood=true, ordering=true, beam=8, node limit=200000, random ties=true, rotate starter=true ===
+--- Game 1 of 10 (X starts) ---
+X -> (5,5)  search depth 3, 83 nodes, 0 ms
+O -> (5,6)  search depth 3, 664 nodes, 1 ms
+Δ -> (6,6)  search depth 3, 664 nodes, 2 ms
+X -> (4,6)  search depth 3, 664 nodes, 2 ms
+O -> (3,7)  search depth 3, 664 nodes, 2 ms
+Δ -> (6,4)  block X, 0 ms
+X -> (5,7)  search depth 3, 664 nodes, 1 ms
+O -> (6,5)  block Δ, 0 ms
+Δ -> (4,5)  search depth 3, 552 nodes, 2 ms
+X -> (6,8)  win, 0 ms
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . . . . O . .
+   . . . . Δ X . . .
+   . . . . X O X . .
+   . . . Δ O Δ . X .
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . . . . . . .
+Result: X wins after 10 moves (0.07 s)
+--- Game 2 of 10 (O starts) ---
+O -> (5,5)  search depth 3, 83 nodes, 0 ms
+Δ -> (6,5)  search depth 3, 664 nodes, 1 ms
+X -> (6,4)  search depth 3, 664 nodes, 2 ms
+O -> (6,6)  search depth 3, 664 nodes, 2 ms
+Δ -> (7,7)  search depth 3, 664 nodes, 2 ms
+X -> (4,4)  block O, 1 ms
+O -> (7,5)  search depth 3, 664 nodes, 1 ms
+Δ -> (5,4)  block X, 0 ms
+X -> (7,6)  search depth 3, 552 nodes, 1 ms
+O -> (5,7)  win, 0 ms
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . X . . . . .
+   . . . Δ O . O . .
+   . . . X Δ O . . .
+   . . . . O X Δ . .
+   . . . . . . . . .
+   . . . . . . . . .
+Result: O wins after 10 moves (0.09 s)
+--- Game 3 of 10 (Δ starts) ---
+Δ -> (5,5)  search depth 3, 83 nodes, 1 ms
+X -> (6,5)  search depth 3, 664 nodes, 2 ms
+O -> (6,4)  search depth 3, 664 nodes, 1 ms
+Δ -> (6,6)  search depth 3, 664 nodes, 2 ms
+X -> (7,7)  search depth 3, 664 nodes, 1 ms
+O -> (4,4)  block Δ, 0 ms
+Δ -> (7,5)  search depth 3, 664 nodes, 2 ms
+X -> (5,4)  block O, 0 ms
+O -> (7,4)  search depth 3, 552 nodes, 1 ms
+Δ -> (8,4)  win, 0 ms
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . O . . . . .
+   . . . X Δ . . . .
+   . . . O X Δ . . .
+   . . . O Δ . X . .
+   . . . Δ . . . . .
+   . . . . . . . . .
+Result: Δ wins after 10 moves (0.09 s)
+--- Game 4 of 10 (X starts) ---
+X -> (5,5)  search depth 3, 83 nodes, 1 ms
+O -> (5,6)  search depth 3, 664 nodes, 2 ms
+Δ -> (4,6)  search depth 3, 664 nodes, 1 ms
+X -> (6,6)  search depth 3, 664 nodes, 2 ms
+O -> (7,7)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,4)  block X, 0 ms
+X -> (5,7)  search depth 3, 664 nodes, 1 ms
+O -> (4,5)  block Δ, 0 ms
+Δ -> (7,5)  search depth 3, 552 nodes, 1 ms
+X -> (4,8)  win, 0 ms
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . Δ O Δ . X .
+   . . . . X O X . .
+   . . . . . X . . .
+   . . . . Δ . O . .
+   . . . . . . . . .
+   . . . . . . . . .
+Result: X wins after 10 moves (0.09 s)
+--- Game 5 of 10 (O starts) ---
+O -> (5,5)  search depth 3, 83 nodes, 0 ms
+Δ -> (5,6)  search depth 3, 664 nodes, 1 ms
+X -> (6,6)  search depth 3, 664 nodes, 2 ms
+O -> (4,6)  search depth 3, 664 nodes, 1 ms
+Δ -> (3,7)  search depth 3, 664 nodes, 1 ms
+X -> (6,4)  block O, 0 ms
+O -> (5,7)  search depth 3, 664 nodes, 1 ms
+Δ -> (6,5)  block X, 0 ms
+X -> (7,4)  search depth 3, 552 nodes, 1 ms
+O -> (6,8)  win, 0 ms
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . . . . Δ . .
+   . . . . . O . . .
+   . . . . O Δ O . .
+   . . . X Δ X . O .
+   . . . X . . . . .
+   . . . . . . . . .
+   . . . . . . . . .
+Result: O wins after 10 moves (0.09 s)
+--- Game 6 of 10 (Δ starts) ---
+Δ -> (5,5)  search depth 3, 83 nodes, 1 ms
+X -> (5,6)  search depth 3, 664 nodes, 1 ms
+O -> (6,6)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,6)  search depth 3, 664 nodes, 1 ms
+X -> (3,7)  search depth 3, 664 nodes, 1 ms
+O -> (6,4)  block Δ, 0 ms
+Δ -> (5,7)  search depth 3, 664 nodes, 1 ms
+X -> (6,5)  block O, 0 ms
+O -> (5,4)  search depth 3, 552 nodes, 1 ms
+Δ -> (3,5)  win, 0 ms
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . . Δ . X . .
+   . . . . . Δ . . .
+   . . . O Δ X Δ . .
+   . . . O X O . . .
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . . . . . . .
+Result: Δ wins after 10 moves (0.09 s)
+--- Game 7 of 10 (X starts) ---
+X -> (5,5)  search depth 3, 83 nodes, 0 ms
+O -> (6,5)  search depth 3, 664 nodes, 1 ms
+Δ -> (6,4)  search depth 3, 664 nodes, 1 ms
+X -> (6,6)  search depth 3, 664 nodes, 1 ms
+O -> (7,7)  search depth 3, 664 nodes, 2 ms
+Δ -> (4,4)  block X, 0 ms
+X -> (7,5)  search depth 3, 664 nodes, 1 ms
+O -> (5,4)  block Δ, 0 ms
+Δ -> (7,4)  search depth 3, 552 nodes, 1 ms
+X -> (8,4)  win, 0 ms
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . Δ . . . . .
+   . . . O X . . . .
+   . . . Δ O X . . .
+   . . . Δ X . O . .
+   . . . X . . . . .
+   . . . . . . . . .
+Result: X wins after 10 moves (0.09 s)
+--- Game 8 of 10 (O starts) ---
+O -> (5,5)  search depth 3, 83 nodes, 0 ms
+Δ -> (6,5)  search depth 3, 664 nodes, 1 ms
+X -> (6,4)  search depth 3, 664 nodes, 1 ms
+O -> (6,6)  search depth 3, 664 nodes, 2 ms
+Δ -> (7,7)  search depth 3, 664 nodes, 2 ms
+X -> (4,4)  block O, 0 ms
+O -> (7,5)  search depth 3, 664 nodes, 2 ms
+Δ -> (5,4)  block X, 0 ms
+X -> (5,3)  search depth 3, 552 nodes, 1 ms
+O -> (5,7)  win, 0 ms
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . X . . . . .
+   . . X Δ O . O . .
+   . . . X Δ O . . .
+   . . . . O . Δ . .
+   . . . . . . . . .
+   . . . . . . . . .
+Result: O wins after 10 moves (0.09 s)
+--- Game 9 of 10 (Δ starts) ---
+Δ -> (5,5)  search depth 3, 83 nodes, 0 ms
+X -> (6,5)  search depth 3, 664 nodes, 2 ms
+O -> (6,6)  search depth 3, 664 nodes, 1 ms
+Δ -> (6,4)  search depth 3, 664 nodes, 1 ms
+X -> (7,3)  search depth 3, 664 nodes, 1 ms
+O -> (4,6)  block Δ, 0 ms
+Δ -> (7,5)  search depth 3, 664 nodes, 1 ms
+X -> (5,6)  block O, 0 ms
+O -> (4,5)  search depth 3, 552 nodes, 1 ms
+Δ -> (5,3)  win, 0 ms
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . . O O . . .
+   . . Δ . Δ X . . .
+   . . . Δ X O . . .
+   . . X . Δ . . . .
+   . . . . . . . . .
+   . . . . . . . . .
+Result: Δ wins after 10 moves (0.09 s)
+--- Game 10 of 10 (X starts) ---
+X -> (5,5)  search depth 3, 83 nodes, 0 ms
+O -> (6,5)  search depth 3, 664 nodes, 1 ms
+Δ -> (6,6)  search depth 3, 664 nodes, 1 ms
+X -> (6,4)  search depth 3, 664 nodes, 2 ms
+O -> (7,3)  search depth 3, 664 nodes, 1 ms
+Δ -> (4,6)  block X, 0 ms
+X -> (7,5)  search depth 3, 664 nodes, 1 ms
+O -> (5,6)  block Δ, 0 ms
+Δ -> (7,6)  search depth 3, 552 nodes, 1 ms
+X -> (8,6)  win, 1 ms
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . . . . . . .
+   . . . . . Δ . . .
+   . . . . X O . . .
+   . . . X O Δ . . .
+   . . O . X Δ . . .
+   . . . . . X . . .
+   . . . . . . . . .
+Result: X wins after 10 moves (0.09 s)
+=== Finished 10 games. X 4W/6L/0D, O 3W/7L/0D, Δ 3W/7L/0D | total 1.0 s, moves stopped by node limit: 0 ===
+
+=== Task 5 run: N=10, board 10x10, 3 in a row, 3 players (X, O, Δ), look-ahead 3, win/block=true, neighbourhood=true, ordering=true, beam=8, node limit=200000, random ties=true, rotate starter=true ===
+--- Game 1 of 10 (X starts) ---
+X -> (6,6)  search depth 3, 83 nodes, 0 ms
+O -> (7,6)  search depth 3, 664 nodes, 2 ms
+Δ -> (7,5)  search depth 3, 664 nodes, 2 ms
+X -> (7,7)  search depth 3, 664 nodes, 2 ms
+O -> (8,8)  search depth 3, 664 nodes, 2 ms
+Δ -> (5,5)  block X, 0 ms
+X -> (8,6)  search depth 3, 664 nodes, 2 ms
+O -> (6,5)  block Δ, 0 ms
+Δ -> (6,4)  search depth 3, 552 nodes, 1 ms
+X -> (6,8)  win, 0 ms
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . Δ . . . . .
+   . . . Δ O X . X . .
+   . . . . Δ O X . . .
+   . . . . . X . O . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+Result: X wins after 10 moves (0.09 s)
+--- Game 2 of 10 (O starts) ---
+O -> (6,6)  search depth 3, 83 nodes, 0 ms
+Δ -> (6,7)  search depth 3, 664 nodes, 1 ms
+X -> (7,7)  search depth 3, 664 nodes, 2 ms
+O -> (5,7)  search depth 3, 664 nodes, 2 ms
+Δ -> (4,8)  search depth 3, 664 nodes, 2 ms
+X -> (7,5)  block O, 0 ms
+O -> (6,8)  search depth 3, 664 nodes, 2 ms
+Δ -> (7,6)  block X, 0 ms
+X -> (6,5)  search depth 3, 552 nodes, 1 ms
+O -> (4,6)  win, 0 ms
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . O . Δ . .
+   . . . . . . O . . .
+   . . . . X O Δ O . .
+   . . . . X Δ X . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+Result: O wins after 10 moves (0.10 s)
+--- Game 3 of 10 (Δ starts) ---
+Δ -> (6,6)  search depth 3, 83 nodes, 0 ms
+X -> (6,7)  search depth 3, 664 nodes, 1 ms
+O -> (5,7)  search depth 3, 664 nodes, 1 ms
+Δ -> (7,7)  search depth 3, 664 nodes, 2 ms
+X -> (8,8)  search depth 3, 664 nodes, 2 ms
+O -> (5,5)  block Δ, 0 ms
+Δ -> (6,8)  search depth 3, 664 nodes, 1 ms
+X -> (5,6)  block O, 0 ms
+O -> (5,9)  search depth 3, 552 nodes, 1 ms
+Δ -> (8,6)  win, 0 ms
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . O X O . O .
+   . . . . . Δ X Δ . .
+   . . . . . . Δ . . .
+   . . . . . Δ . X . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+Result: Δ wins after 10 moves (0.10 s)
+--- Game 4 of 10 (X starts) ---
+X -> (6,6)  search depth 3, 83 nodes, 1 ms
+O -> (7,6)  search depth 3, 664 nodes, 2 ms
+Δ -> (7,5)  search depth 3, 664 nodes, 2 ms
+X -> (7,7)  search depth 3, 664 nodes, 1 ms
+O -> (8,8)  search depth 3, 664 nodes, 1 ms
+Δ -> (5,5)  block X, 0 ms
+X -> (8,6)  search depth 3, 664 nodes, 1 ms
+O -> (6,5)  block Δ, 0 ms
+Δ -> (5,6)  search depth 3, 552 nodes, 1 ms
+X -> (9,5)  win, 0 ms
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . Δ Δ . . . .
+   . . . . O X . . . .
+   . . . . Δ O X . . .
+   . . . . . X . O . .
+   . . . . X . . . . .
+   . . . . . . . . . .
+Result: X wins after 10 moves (0.10 s)
+--- Game 5 of 10 (O starts) ---
+O -> (6,6)  search depth 3, 83 nodes, 1 ms
+Δ -> (6,7)  search depth 3, 664 nodes, 2 ms
+X -> (5,7)  search depth 3, 664 nodes, 2 ms
+O -> (7,7)  search depth 3, 664 nodes, 1 ms
+Δ -> (8,8)  search depth 3, 664 nodes, 2 ms
+X -> (5,5)  block O, 0 ms
+O -> (6,8)  search depth 3, 664 nodes, 2 ms
+Δ -> (5,6)  block X, 0 ms
+X -> (8,6)  search depth 3, 552 nodes, 1 ms
+O -> (5,9)  win, 0 ms
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . X Δ X . O .
+   . . . . . O Δ O . .
+   . . . . . . O . . .
+   . . . . . X . Δ . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+Result: O wins after 10 moves (0.10 s)
+--- Game 6 of 10 (Δ starts) ---
+Δ -> (6,6)  search depth 3, 83 nodes, 0 ms
+X -> (6,7)  search depth 3, 664 nodes, 1 ms
+O -> (7,7)  search depth 3, 664 nodes, 1 ms
+Δ -> (5,7)  search depth 3, 664 nodes, 2 ms
+X -> (4,8)  search depth 3, 664 nodes, 1 ms
+O -> (7,5)  block Δ, 0 ms
+Δ -> (6,8)  search depth 3, 664 nodes, 2 ms
+X -> (7,6)  block O, 0 ms
+O -> (8,5)  search depth 3, 552 nodes, 2 ms
+Δ -> (4,6)  win, 0 ms
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . Δ . X . .
+   . . . . . . Δ . . .
+   . . . . . Δ X Δ . .
+   . . . . O X O . . .
+   . . . . O . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+Result: Δ wins after 10 moves (0.10 s)
+--- Game 7 of 10 (X starts) ---
+X -> (6,6)  search depth 3, 83 nodes, 1 ms
+O -> (6,7)  search depth 3, 664 nodes, 1 ms
+Δ -> (7,7)  search depth 3, 664 nodes, 1 ms
+X -> (5,7)  search depth 3, 664 nodes, 1 ms
+O -> (4,8)  search depth 3, 664 nodes, 1 ms
+Δ -> (7,5)  block X, 0 ms
+X -> (6,8)  search depth 3, 664 nodes, 2 ms
+O -> (7,6)  block Δ, 0 ms
+Δ -> (7,9)  search depth 3, 552 nodes, 1 ms
+X -> (4,6)  win, 0 ms
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . X . O . .
+   . . . . . . X . . .
+   . . . . . X O X . .
+   . . . . Δ O Δ . Δ .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+Result: X wins after 10 moves (0.10 s)
+--- Game 8 of 10 (O starts) ---
+O -> (6,6)  search depth 3, 83 nodes, 0 ms
+Δ -> (7,6)  search depth 3, 664 nodes, 2 ms
+X -> (7,5)  search depth 3, 664 nodes, 2 ms
+O -> (7,7)  search depth 3, 664 nodes, 2 ms
+Δ -> (8,8)  search depth 3, 664 nodes, 2 ms
+X -> (5,5)  block O, 0 ms
+O -> (8,6)  search depth 3, 664 nodes, 1 ms
+Δ -> (6,5)  block X, 0 ms
+X -> (5,4)  search depth 3, 552 nodes, 1 ms
+O -> (9,5)  win, 0 ms
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . X X . . . . .
+   . . . . Δ O . . . .
+   . . . . X Δ O . . .
+   . . . . . O . Δ . .
+   . . . . O . . . . .
+   . . . . . . . . . .
+Result: O wins after 10 moves (0.10 s)
+--- Game 9 of 10 (Δ starts) ---
+Δ -> (6,6)  search depth 3, 83 nodes, 0 ms
+X -> (6,7)  search depth 3, 664 nodes, 2 ms
+O -> (5,7)  search depth 3, 664 nodes, 2 ms
+Δ -> (7,7)  search depth 3, 664 nodes, 1 ms
+X -> (8,8)  search depth 3, 664 nodes, 1 ms
+O -> (5,5)  block Δ, 0 ms
+Δ -> (6,8)  search depth 3, 664 nodes, 1 ms
+X -> (5,6)  block O, 0 ms
+O -> (7,6)  search depth 3, 552 nodes, 1 ms
+Δ -> (8,6)  win, 0 ms
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . O X O . . .
+   . . . . . Δ X Δ . .
+   . . . . . O Δ . . .
+   . . . . . Δ . X . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+Result: Δ wins after 10 moves (0.10 s)
+--- Game 10 of 10 (X starts) ---
+X -> (6,6)  search depth 3, 83 nodes, 0 ms
+O -> (7,6)  search depth 3, 664 nodes, 1 ms
+Δ -> (7,7)  search depth 3, 664 nodes, 1 ms
+X -> (7,5)  search depth 3, 664 nodes, 1 ms
+O -> (8,4)  search depth 3, 664 nodes, 2 ms
+Δ -> (5,7)  block X, 0 ms
+X -> (8,6)  search depth 3, 664 nodes, 2 ms
+O -> (6,7)  block Δ, 0 ms
+Δ -> (6,4)  search depth 3, 552 nodes, 1 ms
+X -> (9,7)  win, 0 ms
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . . . . .
+   . . . . . . Δ . . .
+   . . . Δ . X O . . .
+   . . . . X O Δ . . .
+   . . . O . X . . . .
+   . . . . . . X . . .
+   . . . . . . . . . .
+Result: X wins after 10 moves (0.10 s)
+=== Finished 10 games. X 4W/6L/0D, O 3W/7L/0D, Δ 3W/7L/0D | total 1.1 s, moves stopped by node limit: 0 ===
+
+=== Task 5 run: N=1, board 4x4, 3 in a row, 3 players (X, O, Δ), look-ahead full, win/block=false, neighbourhood=false, ordering=false, beam=all, node limit=500000, random ties=true, rotate starter=true ===
+--- Game 1 of 1 (X starts) ---
+X -> (2,2)  search depth 4, 500000 nodes (NODE LIMIT REACHED), 155 ms
+O -> (1,1)  search depth 5, 500000 nodes (NODE LIMIT REACHED), 153 ms
+Δ -> (3,3)  search depth 5, 500000 nodes (NODE LIMIT REACHED), 154 ms
+X -> (1,3)  search depth 5, 500000 nodes (NODE LIMIT REACHED), 147 ms
+O -> (4,1)  search depth 5, 500000 nodes (NODE LIMIT REACHED), 130 ms
+Δ -> (3,1)  search depth 6, 500000 nodes (NODE LIMIT REACHED), 131 ms
+X -> (2,3)  search depth 4, 6286 nodes, 2 ms
+O -> (3,2)  search depth 8, 500000 nodes (NODE LIMIT REACHED), 57 ms
+Δ -> (1,4)  search depth 8, 103020 nodes, 11 ms
+X -> (2,1)  search depth 1, 7 nodes, 0 ms
+   O . X Δ
+   X X X .
+   Δ O Δ .
+   O . . .
+Result: X wins after 10 moves (1.02 s)
+=== Finished 1 game. X 1W/0L/0D, O 0W/1L/0D, Δ 0W/1L/0D | total 1.0 s, moves stopped by node limit: 7 ===
+

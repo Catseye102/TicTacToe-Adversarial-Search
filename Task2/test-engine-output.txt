@@ -1,0 +1,9 @@
+Computer on an empty board: {
+  id: 4,
+  score: 0,
+  abNodes: 7865,
+  cutoffs: 2221,
+  mmNodes: 549946,
+  ms: 3
+}
+All human strategies: { games: 613, computerWins: 450, draws: 163, computerLosses: 0 }

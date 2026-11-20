@@ -1,0 +1,30 @@
+Task 2 session started Wed Nov 11 2026 23:35:50 GMT-0600 (Central Standard Time)
+=== Game 1 (human X moves first) ===
+Human X -> square 1
+Computer O -> square 5  (score 0, alpha-beta nodes 1607, cut-offs 445, minimax nodes 59705, saved 97.3%)
+Human X -> square 2
+Computer O -> square 3  (score 0, alpha-beta nodes 54, cut-offs 14, minimax nodes 935, saved 94.2%)
+Human X -> square 7
+Computer O -> square 4  (score 0, alpha-beta nodes 34, cut-offs 5, minimax nodes 47, saved 27.7%)
+Human X -> square 6
+Computer O -> square 9  (score 0, alpha-beta nodes 5, cut-offs 0, minimax nodes 5, saved 0.0%)
+Human X -> square 8
+   X X O
+   O O X
+   X X O
+Result: GAME OVER! IT WAS A DRAW!
+
+=== Game 2 (human X moves first) ===
+Human X -> square 1
+Computer O -> square 5  (score 0, alpha-beta nodes 1607, cut-offs 445, minimax nodes 59705, saved 97.3%)
+Human X -> square 2
+Computer O -> square 3  (score 0, alpha-beta nodes 54, cut-offs 14, minimax nodes 935, saved 94.2%)
+Human X -> square 7
+Computer O -> square 4  (score 0, alpha-beta nodes 34, cut-offs 5, minimax nodes 47, saved 27.7%)
+Human X -> square 9
+Computer O -> square 6  (score 9, alpha-beta nodes 4, cut-offs 0, minimax nodes 4, saved 0.0%)
+   X X O
+   O O O
+   X . X
+Result: Player 'O' (computer) won!
+

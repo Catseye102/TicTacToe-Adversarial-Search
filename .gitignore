@@ -1,0 +1,15 @@
+# Local reports and submission archives
+*.docx
+*.pdf
+*.zip
+
+# Generated experiment results
+.results/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+~$*
+.vscode/
+node_modules/
+*.log

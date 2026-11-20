@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2 - Tic Tac Toe (Alpha-Beta)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Tic Tac Toe: Human vs Machine</h1>
+    <p class="sub">Task 2 &middot; 3x3 board &middot; Minimax with Alpha-Beta pruning</p>
+  </header>
+
+  <section class="controls">
+    <label>First move:
+      <select id="starter">
+        <option value="human">Human (X)</option>
+        <option value="ai">Computer (O)</option>
+      </select>
+    </label>
+    <button id="new">NEW GAME</button>
+  </section>
+
+  <h2 id="result" role="status">Your turn: click a square</h2>
+
+  <section id="game">
+    <div id="tic"></div>
+
+    <div id="stats">
+      <h3>Last computer move</h3>
+      <table>
+        <tr><td>Square chosen</td><td id="sMove">-</td></tr>
+        <tr><td>Alpha-beta score</td><td id="sScore">-</td></tr>
+        <tr><td>Nodes searched (alpha-beta)</td><td id="sAB">-</td></tr>
+        <tr><td>Cutoff events</td><td id="sCut">-</td></tr>
+        <tr><td>Nodes plain minimax would search</td><td id="sMM">-</td></tr>
+        <tr><td>Saved by pruning</td><td id="sSave">-</td></tr>
+        <tr><td>Alpha-beta time</td><td id="sTime">-</td></tr>
+      </table>
+      <p class="note">A positive score predicts a computer win, a negative score predicts a human win,
+        and zero predicts a draw with optimal play. The score favors earlier wins and later losses.</p>
+    </div>
+  </section>
+
+  <section id="logbox">
+    <h3>Session log <button id="dl">Download log</button></h3>
+    <pre id="log"></pre>
+  </section>
+
+  <script src="engine.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

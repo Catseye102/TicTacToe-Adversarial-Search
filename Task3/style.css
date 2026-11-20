@@ -1,0 +1,49 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Verdana, Arial, sans-serif; background: #fffbe6; color: #333; padding: 16px; }
+header { text-align: center; margin: 10px 0 16px; }
+header h1 { font-size: 34px; color: cornflowerblue; font-family: cursive; }
+.sub { color: #8a5a00; margin-top: 4px; }
+.controls { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; align-items: center; margin-bottom: 12px; }
+.controls label { font-size: 15px; }
+select, input { font-size: 15px; padding: 4px 6px; }
+button { font-size: 15px; font-weight: bold; padding: 8px 16px; background: limegreen; color: #fff;
+         border: 1px solid #333; border-radius: 4px; cursor: pointer; }
+button:hover { background: green; }
+button:disabled { background: #999; cursor: default; }
+#result { text-align: center; color: chocolate; font-size: 24px; margin: 10px 0 14px; min-height: 30px; }
+#game { display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; }
+#tic { display: grid; grid-template-columns: repeat(3, 100px); gap: 4px; padding: 4px;
+       background: dodgerblue; align-self: flex-start; }
+#tic canvas { background: lightyellow; cursor: pointer; display: block; }
+#tic canvas:hover { outline: 3px solid lightblue; }
+#tic canvas.win { outline: 4px solid gold; }
+#stats { max-width: 420px; }
+#stats h3, #logbox h3 { color: brown; margin-bottom: 8px; }
+table { border-collapse: collapse; width: 100%; }
+td, th { border: 1px solid #c9b98a; padding: 5px 8px; font-size: 14px; }
+td:last-child { text-align: right; font-weight: bold; }
+.note { font-size: 12px; color: #666; margin-top: 8px; }
+#logbox { max-width: 900px; margin: 20px auto 0; }
+#logbox button { font-size: 12px; padding: 4px 10px; margin-left: 10px; }
+#log { background: #fff; border: 1px solid #c9b98a; padding: 8px; height: 260px; overflow: auto;
+       font-family: Menlo, Consolas, monospace; font-size: 12px; white-space: pre-wrap; }
+
+/* DOM board used by Tasks 3-5 */
+.board3, .boardN { display: grid; gap: 3px; padding: 3px; background: dodgerblue; width: max-content; }
+.board3 { grid-template-columns: repeat(3, 90px); }
+.board3 .cell { width: 90px; height: 90px; font-size: 54px; }
+.cell { background: lightyellow; display: flex; align-items: center; justify-content: center;
+        font-weight: bold; font-family: Arial, sans-serif; }
+.cell.win { outline: 4px solid gold; outline-offset: -4px; }
+.pX { color: #e0245e; }
+.pO { color: #2e9d3a; }
+.pA { color: #1f6fd1; }
+.pB { color: #9b4dca; }
+.pX.cell { background: #ffe1ea; } .pO.cell { background: #e2f7df; }
+.pA.cell { background: #dfeafb; } .pB.cell { background: #efe2f8; }
+#scores { min-width: min(340px, 100%); max-width: min(560px, 100%); }
+#scores h3 { color: brown; margin-bottom: 8px; }
+#scores td, #scores th { text-align: center; }
+#scores td:last-child { text-align: left; font-weight: normal; }
+#scoreBody td:last-child { text-align: center; font-weight: bold; }
+#gameInfo { max-width: 300px; }

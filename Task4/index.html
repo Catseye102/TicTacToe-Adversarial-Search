@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 4 - Tic Tac Toe: 4x4, 3 Machine Players</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-task="Task 4">
+  <header>
+    <h1>Tic Tac Toe: 4x4, 3 Machine Players</h1>
+    <p class="sub">Task 4 &middot; 4x4 board &middot; players X, O and &Delta; &middot; multi-player Minimax (max^n)</p>
+  </header>
+
+  <section class="controls">
+    <label>Number of games N (1-10): <input id="nGames" type="number" min="1" max="10" value="5"></label>
+    <label>Board size B: <select id="boardSize" disabled><option value="4" selected>4</option></select></label>
+    <span>Three in a row wins</span>
+  </section>
+  <section class="controls">
+    <fieldset>
+      <legend>Search (multi-player minimax, max^n)</legend>
+      <label>Look-ahead (plies): <select id="depth"><option value="0">Until terminal or node limit</option><option value="1">1</option><option value="2">2</option><option value="3" selected>3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option></select></label>
+      <label>Node limit per move: <select id="nodeLimit"><option value="50000">50,000</option><option value="200000">200,000</option><option value="300000" selected>300,000</option><option value="500000">500,000</option><option value="1000000">1,000,000</option></select></label>
+      <label><input id="winBlock" type="checkbox"> win / block rule</label>
+      <label><input id="neighbourhood" type="checkbox"> only cells next to marks</label>
+      <label><input id="ordering" type="checkbox" checked> move ordering</label>
+      <label>Beam (best moves kept, 0 = all): <input id="beam" type="number" min="0" max="50" value="0" style="width:60px"></label>
+    </fieldset>
+  </section>
+  <section class="controls">
+    <label><input id="randomTies" type="checkbox" checked> random choice between equally good moves</label>
+    <label><input id="rotate" type="checkbox" checked> rotate who starts</label>
+    <label>Speed:
+      <select id="speed">
+        <option value="250">normal</option>
+        <option value="60">fast</option>
+        <option value="0">instant</option>
+      </select>
+    </label>
+    <button id="start">PLAY N GAMES</button>
+    <button id="stop" disabled>STOP</button>
+  </section>
+
+  <h2 id="result" role="status">Set N and press PLAY N GAMES</h2>
+
+  <section id="game">
+    <div>
+      <div id="board" class="boardN"></div>
+      <p id="treeInfo" class="note"></p>
+      <div id="moveStats">
+        <h3 style="color:brown">Last move</h3>
+        <table>
+          <tr><td>Player</td><td id="mPlayer">-</td></tr>
+          <tr><td>Cell (row, col)</td><td id="mCell">-</td></tr>
+          <tr><td>Decided by</td><td id="mRule">-</td></tr>
+          <tr><td>Depth searched</td><td id="mDepth">-</td></tr>
+          <tr><td>Nodes searched</td><td id="mNodes">-</td></tr>
+          <tr><td>Time</td><td id="mTime">-</td></tr>
+          <tr><td>Stopped by node limit</td><td id="mStop">-</td></tr>
+          <tr><td>JS heap used</td><td id="mMem">-</td></tr>
+        </table>
+      </div>
+    </div>
+    <div id="scores">
+      <h3>Scoreboard</h3>
+      <table>
+        <thead><tr><th>Player</th><th>Wins</th><th>Losses</th><th>Draws</th></tr></thead>
+        <tbody id="scoreBody"></tbody>
+      </table>
+      <h3 style="margin-top:16px">Games played</h3>
+      <table>
+        <thead><tr><th>#</th><th>Starts</th><th>Moves</th><th>Result</th><th>Time</th></tr></thead>
+        <tbody id="historyBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="logbox">
+    <h3>Session log <button id="dl">Download log</button></h3>
+    <pre id="log"></pre>
+  </section>
+
+  <script src="engineN.js"></script>
+  <script src="uiN.js"></script>
+</body>
+</html>

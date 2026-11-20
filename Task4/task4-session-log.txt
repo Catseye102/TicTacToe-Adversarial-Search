@@ -1,0 +1,201 @@
+Task 4 session started Wed Nov 11 2026 23:35:55 GMT-0600 (Central Standard Time)
+=== Task 4 run: N=10, board 4x4, 3 in a row, 3 players (X, O, Δ), look-ahead 3, win/block=false, neighbourhood=false, ordering=true, beam=all, node limit=300000, random ties=true, rotate starter=true ===
+--- Game 1 of 10 (X starts) ---
+X -> (3,2)  search depth 3, 3888 nodes, 3 ms
+O -> (3,3)  search depth 3, 3195 nodes, 3 ms
+Δ -> (2,3)  search depth 3, 2590 nodes, 2 ms
+X -> (1,1)  search depth 3, 2067 nodes, 1 ms
+O -> (2,2)  search depth 3, 1620 nodes, 0 ms
+Δ -> (1,2)  search depth 3, 1243 nodes, 1 ms
+X -> (4,4)  search depth 3, 858 nodes, 0 ms
+O -> (3,4)  search depth 3, 619 nodes, 0 ms
+Δ -> (2,1)  search depth 3, 472 nodes, 1 ms
+X -> (4,2)  search depth 3, 315 nodes, 0 ms
+O -> (4,1)  search depth 3, 198 nodes, 0 ms
+Δ -> (4,3)  search depth 3, 103 nodes, 0 ms
+X -> (1,3)  search depth 3, 60 nodes, 0 ms
+O -> (1,4)  search depth 3, 27 nodes, 0 ms
+Δ -> (2,4)  search depth 2, 6 nodes, 0 ms
+X -> (3,1)  search depth 1, 1 nodes, 0 ms
+   X Δ X O
+   Δ O Δ Δ
+   X X O O
+   O X Δ X
+Result: Draw after 16 moves (0.06 s)
+--- Game 2 of 10 (O starts) ---
+O -> (2,3)  search depth 3, 3888 nodes, 2 ms
+Δ -> (3,2)  search depth 3, 3195 nodes, 1 ms
+X -> (3,3)  search depth 3, 2590 nodes, 1 ms
+O -> (4,2)  search depth 3, 2067 nodes, 0 ms
+Δ -> (4,3)  search depth 3, 1620 nodes, 1 ms
+X -> (2,2)  search depth 3, 1243 nodes, 1 ms
+O -> (2,1)  search depth 3, 858 nodes, 1 ms
+Δ -> (4,4)  search depth 3, 563 nodes, 0 ms
+X -> (1,1)  search depth 1, 8 nodes, 0 ms
+   X . . .
+   O X O .
+   . Δ X .
+   . O Δ Δ
+Result: X wins after 9 moves (0.04 s)
+--- Game 3 of 10 (Δ starts) ---
+Δ -> (3,2)  search depth 3, 3888 nodes, 2 ms
+X -> (2,2)  search depth 3, 3195 nodes, 2 ms
+O -> (3,3)  search depth 3, 2590 nodes, 1 ms
+Δ -> (2,3)  search depth 3, 2067 nodes, 1 ms
+X -> (4,1)  search depth 3, 1620 nodes, 1 ms
+O -> (1,4)  search depth 3, 1153 nodes, 0 ms
+Δ -> (2,1)  search depth 3, 930 nodes, 0 ms
+X -> (4,3)  search depth 3, 675 nodes, 0 ms
+O -> (2,4)  search depth 3, 472 nodes, 1 ms
+Δ -> (4,2)  search depth 3, 285 nodes, 0 ms
+X -> (3,4)  search depth 3, 178 nodes, 0 ms
+O -> (3,1)  search depth 3, 115 nodes, 0 ms
+Δ -> (1,2)  search depth 3, 60 nodes, 0 ms
+X -> (1,1)  search depth 3, 27 nodes, 0 ms
+O -> (4,4)  search depth 2, 6 nodes, 0 ms
+Δ -> (1,3)  search depth 1, 1 nodes, 0 ms
+   X Δ Δ O
+   Δ X Δ O
+   O Δ O X
+   X Δ X O
+Result: Draw after 16 moves (0.08 s)
+--- Game 4 of 10 (X starts) ---
+X -> (3,3)  search depth 3, 3888 nodes, 1 ms
+O -> (2,2)  search depth 3, 3195 nodes, 1 ms
+Δ -> (2,3)  search depth 3, 2590 nodes, 1 ms
+X -> (2,4)  search depth 3, 2067 nodes, 1 ms
+O -> (3,2)  search depth 3, 1620 nodes, 1 ms
+Δ -> (4,2)  search depth 3, 1153 nodes, 1 ms
+X -> (1,2)  search depth 3, 858 nodes, 0 ms
+O -> (1,3)  search depth 3, 675 nodes, 0 ms
+Δ -> (4,3)  search depth 3, 472 nodes, 0 ms
+X -> (3,1)  search depth 3, 285 nodes, 1 ms
+O -> (4,4)  search depth 3, 158 nodes, 0 ms
+Δ -> (4,1)  search depth 1, 5 nodes, 0 ms
+   . X O .
+   . O Δ X
+   X O X .
+   Δ Δ Δ O
+Result: Δ wins after 12 moves (0.07 s)
+--- Game 5 of 10 (O starts) ---
+O -> (2,2)  search depth 3, 3888 nodes, 1 ms
+Δ -> (2,3)  search depth 3, 3195 nodes, 1 ms
+X -> (3,2)  search depth 3, 2590 nodes, 2 ms
+O -> (3,1)  search depth 3, 2067 nodes, 1 ms
+Δ -> (3,3)  search depth 3, 1620 nodes, 1 ms
+X -> (1,3)  search depth 3, 1153 nodes, 1 ms
+O -> (4,3)  search depth 3, 858 nodes, 1 ms
+Δ -> (4,2)  search depth 3, 675 nodes, 0 ms
+X -> (1,2)  search depth 3, 472 nodes, 1 ms
+O -> (2,4)  search depth 3, 285 nodes, 0 ms
+Δ -> (1,1)  search depth 3, 158 nodes, 0 ms
+X -> (1,4)  search depth 1, 5 nodes, 0 ms
+   Δ X X X
+   . O Δ O
+   O X Δ .
+   . Δ O .
+Result: X wins after 12 moves (0.06 s)
+--- Game 6 of 10 (Δ starts) ---
+Δ -> (2,3)  search depth 3, 3888 nodes, 1 ms
+X -> (3,2)  search depth 3, 3195 nodes, 1 ms
+O -> (2,2)  search depth 3, 2590 nodes, 1 ms
+Δ -> (1,2)  search depth 3, 2067 nodes, 1 ms
+X -> (3,3)  search depth 3, 1620 nodes, 1 ms
+O -> (3,4)  search depth 3, 1153 nodes, 1 ms
+Δ -> (3,1)  search depth 3, 858 nodes, 0 ms
+X -> (2,1)  search depth 3, 675 nodes, 0 ms
+O -> (2,4)  search depth 3, 472 nodes, 0 ms
+Δ -> (4,3)  search depth 3, 285 nodes, 0 ms
+X -> (1,1)  search depth 3, 158 nodes, 0 ms
+O -> (1,4)  search depth 1, 5 nodes, 0 ms
+   X Δ . O
+   X O Δ O
+   Δ X X O
+   . . Δ .
+Result: O wins after 12 moves (0.06 s)
+--- Game 7 of 10 (X starts) ---
+X -> (3,2)  search depth 3, 3888 nodes, 1 ms
+O -> (2,2)  search depth 3, 3195 nodes, 1 ms
+Δ -> (3,3)  search depth 3, 2590 nodes, 1 ms
+X -> (2,3)  search depth 3, 2067 nodes, 0 ms
+O -> (4,1)  search depth 3, 1620 nodes, 1 ms
+Δ -> (1,4)  search depth 3, 1153 nodes, 1 ms
+X -> (2,1)  search depth 3, 930 nodes, 0 ms
+O -> (4,3)  search depth 3, 675 nodes, 0 ms
+Δ -> (1,3)  search depth 3, 472 nodes, 0 ms
+X -> (4,2)  search depth 3, 285 nodes, 0 ms
+O -> (1,2)  search depth 3, 178 nodes, 0 ms
+Δ -> (1,1)  search depth 3, 115 nodes, 0 ms
+X -> (3,4)  search depth 3, 60 nodes, 0 ms
+O -> (4,4)  search depth 3, 27 nodes, 0 ms
+Δ -> (3,1)  search depth 2, 6 nodes, 0 ms
+X -> (2,4)  search depth 1, 1 nodes, 0 ms
+   Δ O Δ Δ
+   X O X X
+   Δ X Δ X
+   O X O O
+Result: Draw after 16 moves (0.09 s)
+--- Game 8 of 10 (O starts) ---
+O -> (3,3)  search depth 3, 3888 nodes, 1 ms
+Δ -> (2,3)  search depth 3, 3195 nodes, 1 ms
+X -> (2,2)  search depth 3, 2590 nodes, 1 ms
+O -> (4,1)  search depth 3, 2067 nodes, 1 ms
+Δ -> (3,2)  search depth 3, 1620 nodes, 1 ms
+X -> (3,1)  search depth 3, 1243 nodes, 1 ms
+O -> (1,4)  search depth 3, 858 nodes, 0 ms
+Δ -> (1,3)  search depth 3, 619 nodes, 0 ms
+X -> (4,2)  search depth 3, 472 nodes, 0 ms
+O -> (3,4)  search depth 3, 315 nodes, 0 ms
+Δ -> (4,4)  search depth 3, 198 nodes, 0 ms
+X -> (2,4)  search depth 3, 103 nodes, 1 ms
+O -> (4,3)  search depth 3, 60 nodes, 0 ms
+Δ -> (1,1)  search depth 3, 27 nodes, 0 ms
+X -> (1,2)  search depth 2, 6 nodes, 0 ms
+O -> (2,1)  search depth 1, 1 nodes, 0 ms
+   Δ X Δ O
+   O X Δ X
+   X Δ O O
+   O X O Δ
+Result: Draw after 16 moves (0.09 s)
+--- Game 9 of 10 (Δ starts) ---
+Δ -> (2,2)  search depth 3, 3888 nodes, 2 ms
+X -> (2,3)  search depth 3, 3195 nodes, 1 ms
+O -> (3,2)  search depth 3, 2590 nodes, 1 ms
+Δ -> (3,3)  search depth 3, 2067 nodes, 1 ms
+X -> (4,4)  search depth 3, 1620 nodes, 0 ms
+O -> (1,1)  search depth 3, 1153 nodes, 1 ms
+Δ -> (3,1)  search depth 3, 930 nodes, 0 ms
+X -> (2,4)  search depth 3, 675 nodes, 0 ms
+O -> (1,3)  search depth 3, 430 nodes, 0 ms
+Δ -> (3,4)  search depth 3, 285 nodes, 0 ms
+X -> (1,2)  search depth 3, 178 nodes, 0 ms
+O -> (4,2)  search depth 3, 115 nodes, 0 ms
+Δ -> (1,4)  search depth 3, 60 nodes, 0 ms
+X -> (4,3)  search depth 3, 27 nodes, 0 ms
+O -> (4,1)  search depth 2, 6 nodes, 0 ms
+Δ -> (2,1)  search depth 1, 1 nodes, 0 ms
+   O X O Δ
+   Δ Δ X X
+   Δ O Δ Δ
+   O O X X
+Result: Draw after 16 moves (0.09 s)
+--- Game 10 of 10 (X starts) ---
+X -> (2,2)  search depth 3, 3888 nodes, 1 ms
+O -> (3,3)  search depth 3, 3195 nodes, 1 ms
+Δ -> (3,2)  search depth 3, 2590 nodes, 1 ms
+X -> (3,1)  search depth 3, 2067 nodes, 1 ms
+O -> (2,3)  search depth 3, 1620 nodes, 1 ms
+Δ -> (1,3)  search depth 3, 1153 nodes, 0 ms
+X -> (4,3)  search depth 3, 858 nodes, 0 ms
+O -> (4,2)  search depth 3, 675 nodes, 0 ms
+Δ -> (1,2)  search depth 3, 472 nodes, 0 ms
+X -> (2,4)  search depth 3, 285 nodes, 0 ms
+O -> (3,4)  search depth 3, 158 nodes, 0 ms
+Δ -> (1,1)  search depth 1, 5 nodes, 0 ms
+   Δ Δ Δ .
+   . X O X
+   X Δ O O
+   . O X .
+Result: Δ wins after 12 moves (0.07 s)
+=== Finished 10 games. X 2W/3L/5D, O 1W/4L/5D, Δ 2W/3L/5D | total 0.8 s, moves stopped by node limit: 0 ===
+

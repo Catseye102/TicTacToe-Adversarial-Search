@@ -1,0 +1,215 @@
+Task 3 session started Wed Nov 11 2026 23:35:54 GMT-0600 (Central Standard Time)
+=== Run: N=10, look-ahead X=9, O=9, random ties=true, random first move=false, alternate start=true ===
+--- Game 1 of 10 (X starts) ---
+X -> square 4  (score 0, nodes 16553, cut-offs 4242, equally good moves 9)
+O -> square 6  (score 0, nodes 5625, cut-offs 1606, equally good moves 4)
+X -> square 8  (score 0, nodes 2046, cut-offs 443, equally good moves 7)
+O -> square 1  (score 0, nodes 622, cut-offs 125, equally good moves 2)
+X -> square 2  (score 0, nodes 162, cut-offs 20, equally good moves 4)
+O -> square 5  (score 0, nodes 36, cut-offs 6, equally good moves 1)
+X -> square 9  (score 0, nodes 13, cut-offs 0, equally good moves 1)
+O -> square 7  (score 0, nodes 4, cut-offs 0, equally good moves 1)
+X -> square 3  (score 0, nodes 1, cut-offs 0, equally good moves 1)
+   O X X
+   X O O
+   O X X
+Result: Draw
+--- Game 2 of 10 (O starts) ---
+O -> square 4  (score 0, nodes 16553, cut-offs 4242, equally good moves 9)
+X -> square 6  (score 0, nodes 5625, cut-offs 1606, equally good moves 4)
+O -> square 3  (score 0, nodes 2046, cut-offs 443, equally good moves 7)
+X -> square 1  (score 0, nodes 504, cut-offs 125, equally good moves 2)
+O -> square 5  (score 0, nodes 135, cut-offs 21, equally good moves 5)
+X -> square 7  (score 0, nodes 40, cut-offs 6, equally good moves 1)
+O -> square 8  (score 0, nodes 15, cut-offs 0, equally good moves 3)
+X -> square 2  (score 0, nodes 4, cut-offs 0, equally good moves 1)
+O -> square 9  (score 0, nodes 1, cut-offs 0, equally good moves 1)
+   X X O
+   O O X
+   X O O
+Result: Draw
+--- Game 3 of 10 (X starts) ---
+X -> square 8  (score 0, nodes 16553, cut-offs 4242, equally good moves 9)
+O -> square 5  (score 0, nodes 6133, cut-offs 1788, equally good moves 4)
+X -> square 1  (score 0, nodes 1954, cut-offs 417, equally good moves 6)
+O -> square 7  (score 0, nodes 500, cut-offs 103, equally good moves 4)
+X -> square 3  (score 0, nodes 99, cut-offs 18, equally good moves 1)
+O -> square 2  (score 0, nodes 38, cut-offs 6, equally good moves 1)
+X -> square 4  (score 0, nodes 15, cut-offs 0, equally good moves 3)
+O -> square 6  (score 0, nodes 4, cut-offs 0, equally good moves 2)
+X -> square 9  (score 0, nodes 1, cut-offs 0, equally good moves 1)
+   X O X
+   X O O
+   O X X
+Result: Draw
+--- Game 4 of 10 (O starts) ---
+O -> square 8  (score 0, nodes 16553, cut-offs 4242, equally good moves 9)
+X -> square 7  (score 0, nodes 6133, cut-offs 1788, equally good moves 4)
+O -> square 1  (score 0, nodes 1593, cut-offs 345, equally good moves 4)
+X -> square 2  (score 0, nodes 359, cut-offs 96, equally good moves 2)
+O -> square 5  (score 0, nodes 143, cut-offs 24, equally good moves 5)
+X -> square 9  (score 0, nodes 44, cut-offs 4, equally good moves 1)
+O -> square 3  (score 0, nodes 15, cut-offs 0, equally good moves 3)
+X -> square 6  (score 0, nodes 4, cut-offs 0, equally good moves 2)
+O -> square 4  (score 0, nodes 1, cut-offs 0, equally good moves 1)
+   O X O
+   O O X
+   X O X
+Result: Draw
+--- Game 5 of 10 (X starts) ---
+X -> square 5  (score 0, nodes 16553, cut-offs 4242, equally good moves 9)
+O -> square 1  (score 0, nodes 8853, cut-offs 2246, equally good moves 4)
+X -> square 3  (score 0, nodes 1702, cut-offs 319, equally good moves 7)
+O -> square 7  (score 0, nodes 257, cut-offs 70, equally good moves 1)
+X -> square 4  (score 0, nodes 123, cut-offs 15, equally good moves 1)
+O -> square 6  (score 0, nodes 44, cut-offs 3, equally good moves 1)
+X -> square 9  (score 0, nodes 15, cut-offs 0, equally good moves 3)
+O -> square 2  (score 0, nodes 4, cut-offs 0, equally good moves 2)
+X -> square 8  (score 0, nodes 1, cut-offs 0, equally good moves 1)
+   O O X
+   X X O
+   O X X
+Result: Draw
+--- Game 6 of 10 (O starts) ---
+O -> square 8  (score 0, nodes 16553, cut-offs 4242, equally good moves 9)
+X -> square 7  (score 0, nodes 6133, cut-offs 1788, equally good moves 4)
+O -> square 3  (score 0, nodes 1593, cut-offs 345, equally good moves 4)
+X -> square 1  (score 0, nodes 619, cut-offs 126, equally good moves 3)
+O -> square 4  (score 0, nodes 124, cut-offs 18, equally good moves 1)
+X -> square 6  (score 0, nodes 48, cut-offs 6, equally good moves 2)
+O -> square 5  (score 0, nodes 15, cut-offs 0, equally good moves 3)
+X -> square 2  (score 0, nodes 4, cut-offs 0, equally good moves 1)
+O -> square 9  (score 0, nodes 1, cut-offs 0, equally good moves 1)
+   X X O
+   O O X
+   X O O
+Result: Draw
+--- Game 7 of 10 (X starts) ---
+X -> square 3  (score 0, nodes 16553, cut-offs 4242, equally good moves 9)
+O -> square 5  (score 0, nodes 5119, cut-offs 1713, equally good moves 1)
+X -> square 4  (score 0, nodes 2041, cut-offs 389, equally good moves 7)
+O -> square 2  (score 0, nodes 489, cut-offs 106, equally good moves 4)
+X -> square 8  (score 0, nodes 133, cut-offs 15, equally good moves 1)
+O -> square 7  (score 0, nodes 53, cut-offs 4, equally good moves 2)
+X -> square 9  (score 0, nodes 15, cut-offs 0, equally good moves 3)
+O -> square 6  (score 0, nodes 4, cut-offs 0, equally good moves 1)
+X -> square 1  (score 0, nodes 1, cut-offs 0, equally good moves 1)
+   X O X
+   X O O
+   O X X
+Result: Draw
+--- Game 8 of 10 (O starts) ---
+O -> square 5  (score 0, nodes 16553, cut-offs 4242, equally good moves 9)
+X -> square 9  (score 0, nodes 8853, cut-offs 2246, equally good moves 4)
+O -> square 7  (score 0, nodes 2318, cut-offs 404, equally good moves 7)
+X -> square 3  (score 0, nodes 302, cut-offs 73, equally good moves 1)
+O -> square 6  (score 0, nodes 132, cut-offs 16, equally good moves 1)
+X -> square 4  (score 0, nodes 46, cut-offs 2, equally good moves 1)
+O -> square 2  (score 0, nodes 15, cut-offs 0, equally good moves 3)
+X -> square 8  (score 0, nodes 4, cut-offs 0, equally good moves 1)
+O -> square 1  (score 0, nodes 1, cut-offs 0, equally good moves 1)
+   O O X
+   X O O
+   O X X
+Result: Draw
+--- Game 9 of 10 (X starts) ---
+X -> square 2  (score 0, nodes 16553, cut-offs 4242, equally good moves 9)
+O -> square 8  (score 0, nodes 5803, cut-offs 1573, equally good moves 4)
+X -> square 9  (score 0, nodes 2017, cut-offs 448, equally good moves 7)
+O -> square 3  (score 0, nodes 453, cut-offs 113, equally good moves 2)
+X -> square 1  (score 0, nodes 135, cut-offs 21, equally good moves 5)
+O -> square 5  (score 0, nodes 32, cut-offs 8, equally good moves 1)
+X -> square 7  (score 0, nodes 13, cut-offs 0, equally good moves 1)
+O -> square 4  (score 0, nodes 4, cut-offs 0, equally good moves 1)
+X -> square 6  (score 0, nodes 1, cut-offs 0, equally good moves 1)
+   X X O
+   O O X
+   X O X
+Result: Draw
+--- Game 10 of 10 (O starts) ---
+O -> square 6  (score 0, nodes 16553, cut-offs 4242, equally good moves 9)
+X -> square 4  (score 0, nodes 6195, cut-offs 1746, equally good moves 4)
+O -> square 1  (score 0, nodes 2075, cut-offs 447, equally good moves 7)
+X -> square 3  (score 0, nodes 539, cut-offs 123, equally good moves 2)
+O -> square 7  (score 0, nodes 143, cut-offs 24, equally good moves 5)
+X -> square 8  (score 0, nodes 50, cut-offs 7, equally good moves 3)
+O -> square 2  (score 0, nodes 15, cut-offs 0, equally good moves 3)
+X -> square 5  (score 0, nodes 4, cut-offs 0, equally good moves 2)
+O -> square 9  (score 0, nodes 1, cut-offs 0, equally good moves 1)
+   O O X
+   X X O
+   O X O
+Result: Draw
+=== After 10 games: X won 0, O won 0, draws 10 ===
+
+=== Run: N=5, look-ahead X=9, O=1, random ties=true, random first move=false, alternate start=true ===
+--- Game 1 of 5 (X starts) ---
+X -> square 9  (score 0, nodes 16553, cut-offs 4242, equally good moves 9)
+O -> square 5  (score 1, nodes 8, cut-offs 0, equally good moves 1)
+X -> square 8  (score 0, nodes 2396, cut-offs 439, equally good moves 7)
+O -> square 7  (score 6, nodes 6, cut-offs 0, equally good moves 1)
+X -> square 3  (score 0, nodes 123, cut-offs 16, equally good moves 1)
+O -> square 6  (score 5, nodes 4, cut-offs 0, equally good moves 1)
+X -> square 4  (score 0, nodes 13, cut-offs 0, equally good moves 1)
+O -> square 1  (score 0, nodes 2, cut-offs 0, equally good moves 2)
+X -> square 2  (score 0, nodes 1, cut-offs 0, equally good moves 1)
+   O X X
+   X O O
+   O X X
+Result: Draw
+--- Game 2 of 5 (O starts) ---
+O -> square 5  (score 4, nodes 9, cut-offs 0, equally good moves 1)
+X -> square 7  (score 0, nodes 8853, cut-offs 2246, equally good moves 4)
+O -> square 1  (score 7, nodes 7, cut-offs 0, equally good moves 2)
+X -> square 9  (score 0, nodes 316, cut-offs 70, equally good moves 1)
+O -> square 8  (score 6, nodes 5, cut-offs 0, equally good moves 1)
+X -> square 2  (score 0, nodes 43, cut-offs 4, equally good moves 1)
+O -> square 6  (score 5, nodes 3, cut-offs 0, equally good moves 1)
+X -> square 4  (score 0, nodes 4, cut-offs 0, equally good moves 1)
+O -> square 3  (score 0, nodes 1, cut-offs 0, equally good moves 1)
+   O X O
+   X O O
+   X O X
+Result: Draw
+--- Game 3 of 5 (X starts) ---
+X -> square 8  (score 0, nodes 16553, cut-offs 4242, equally good moves 9)
+O -> square 5  (score 2, nodes 8, cut-offs 0, equally good moves 1)
+X -> square 1  (score 0, nodes 1954, cut-offs 417, equally good moves 6)
+O -> square 3  (score 5, nodes 6, cut-offs 0, equally good moves 2)
+X -> square 7  (score 97, nodes 68, cut-offs 16, equally good moves 1)
+O -> square 4  (score 1, nodes 4, cut-offs 0, equally good moves 2)
+X -> square 9  (score 99, nodes 10, cut-offs 0, equally good moves 1)
+   X . O
+   O O .
+   X X X
+Result: X wins
+--- Game 4 of 5 (O starts) ---
+O -> square 5  (score 4, nodes 9, cut-offs 0, equally good moves 1)
+X -> square 3  (score 0, nodes 8853, cut-offs 2246, equally good moves 4)
+O -> square 1  (score 7, nodes 7, cut-offs 0, equally good moves 2)
+X -> square 9  (score 0, nodes 311, cut-offs 71, equally good moves 1)
+O -> square 6  (score 6, nodes 5, cut-offs 0, equally good moves 1)
+X -> square 4  (score 0, nodes 44, cut-offs 3, equally good moves 1)
+O -> square 8  (score 5, nodes 3, cut-offs 0, equally good moves 1)
+X -> square 2  (score 0, nodes 4, cut-offs 0, equally good moves 1)
+O -> square 7  (score 0, nodes 1, cut-offs 0, equally good moves 1)
+   O X X
+   X O O
+   O O X
+Result: Draw
+--- Game 5 of 5 (X starts) ---
+X -> square 8  (score 0, nodes 16553, cut-offs 4242, equally good moves 9)
+O -> square 5  (score 2, nodes 8, cut-offs 0, equally good moves 1)
+X -> square 4  (score 0, nodes 1954, cut-offs 417, equally good moves 6)
+O -> square 7  (score 6, nodes 6, cut-offs 0, equally good moves 4)
+X -> square 3  (score 0, nodes 113, cut-offs 20, equally good moves 1)
+O -> square 9  (score 4, nodes 4, cut-offs 0, equally good moves 2)
+X -> square 1  (score 0, nodes 13, cut-offs 0, equally good moves 1)
+O -> square 2  (score 0, nodes 2, cut-offs 0, equally good moves 1)
+X -> square 6  (score 0, nodes 1, cut-offs 0, equally good moves 1)
+   X O X
+   X O X
+   O X O
+Result: Draw
+=== After 5 games: X won 1, O won 0, draws 4 ===
+

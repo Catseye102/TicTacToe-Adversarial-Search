@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 3 - Tic Tac Toe Machine vs Machine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Tic Tac Toe: Machine vs Machine</h1>
+    <p class="sub">Task 3 &middot; 3x3 board &middot; both players use Minimax with Alpha-Beta pruning</p>
+  </header>
+
+  <section class="controls">
+    <label>Number of games N (1-10): <input id="nGames" type="number" min="1" max="10" value="5"></label>
+    <label>Look-ahead X:
+      <select id="depthX"></select>
+    </label>
+    <label>Look-ahead O:
+      <select id="depthO"></select>
+    </label>
+  </section>
+  <section class="controls">
+    <label><input id="randomTies" type="checkbox" checked> random choice between equally good moves</label>
+    <label><input id="randomOpening" type="checkbox"> random first move</label>
+    <label><input id="alternate" type="checkbox" checked> alternate who starts</label>
+    <label>Speed:
+      <select id="speed">
+        <option value="400">normal</option>
+        <option value="120">fast</option>
+        <option value="0">instant</option>
+      </select>
+    </label>
+    <button id="start">PLAY N GAMES</button>
+  </section>
+
+  <h2 id="result" role="status">Set N and press PLAY N GAMES</h2>
+
+  <section id="game">
+    <div>
+      <div id="board" class="board3"></div>
+      <p id="gameInfo" class="note"></p>
+    </div>
+    <div id="scores">
+      <h3>Scoreboard</h3>
+      <table>
+        <thead><tr><th>Player</th><th>Wins</th><th>Losses</th><th>Draws</th></tr></thead>
+        <tbody id="scoreBody"></tbody>
+      </table>
+      <h3 style="margin-top:16px">Games played</h3>
+      <table>
+        <thead><tr><th>#</th><th>Starts</th><th>Moves (square 1-9)</th><th>Result</th></tr></thead>
+        <tbody id="historyBody"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="logbox">
+    <h3>Session log <button id="dl">Download log</button></h3>
+    <pre id="log"></pre>
+  </section>
+
+  <script src="engine.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
