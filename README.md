@@ -91,13 +91,19 @@ Each task includes its screenshots and, for Tasks 2–5, a browser session log. 
 
 ### Task 1 — Human versus Minimax
 
+The Task 1 screenshot `task1-draw.png` shows a **completed draw** between human X and computer O on the supplied 3×3 board. The final board and result message record the outcome of the plain Minimax demonstration.
+
 ![Task 1 supplied sample at the end of a draw](Task1/screenshots/task1-draw.png)
 
 ### Task 2 — Alpha-beta computer win
 
+The Task 2 screenshot `task2-computer-wins.png` shows **computer O winning across the middle row**. The statistics panel records the search for its final move. The accompanying session log includes this win and a separate game ending in a draw.
+
 ![Task 2 computer win with alpha-beta search statistics](Task2/screenshots/task2-computer-wins.png)
 
 ### Task 3 — Two full-depth computers
+
+The Task 3 screenshot `task3-perfect-vs-perfect.png` shows **ten draws** between two computers, both searching to depth 9. The starting player alternates, and the scoreboard and history record all ten results. The session log also includes a separate five-game trial with X at depth 9 and O at depth 1, producing one X win and four draws.
 
 ![Task 3 ten draws between two full-depth alpha-beta players](Task3/screenshots/task3-perfect-vs-perfect.png)
 
@@ -108,6 +114,8 @@ The Task 4 screenshot currently named `task4-10games.png` shows a **five-game ru
 ![Task 4 three-player board and scoreboard](Task4/screenshots/task4-10games.png)
 
 ### Task 5 — Three players on a 10×10 board
+
+The Task 5 screenshot `task5-B10.png` shows **ten games on a 10×10 board** with the default heuristics enabled. X wins four games, O wins three, and Δ wins three, with no draws. The session log includes this batch, ten-game batches for every other size from 3×3 through 9×9, and a separate capped full-width trial on 4×4.
 
 ![Task 5 ten-game results on a 10×10 board using the default heuristics](Task5/screenshots/task5-B10.png)
 
