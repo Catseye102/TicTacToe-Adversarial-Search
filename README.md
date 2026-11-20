@@ -1,6 +1,6 @@
 # TicTacToe - Adversarial Search
 
-Five browser-based JavaScript tasks explore Minimax, alpha-beta pruning, and three-player Maxⁿ. The project was developed for CS6364 Artificial Intelligence at The University of Texas at Dallas by **Shahran Rahman Alve** and **Hasnat Jamil Bhuiyan**.
+Five browser-based JavaScript tasks explore Minimax, alpha-beta pruning, and three-player Maxⁿ.
 
 The first player to place **three consecutive matching marks** horizontally, vertically, or diagonally wins. A full board without a winner is a draw. This rule also applies to boards larger than 3×3.
 
@@ -89,9 +89,27 @@ See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the seeds, recorded fields, com
 
 Each task includes its screenshots and, for Tasks 2–5, a browser session log. These capture the original browser trials. The seeded command-line baseline is an additional experiment using the same search engines. It has its own move sequences and outcomes.
 
+### Task 1 — Human versus Minimax
+
+![Task 1 supplied sample at the end of a draw](Task1/screenshots/task1-draw.png)
+
+### Task 2 — Alpha-beta computer win
+
+![Task 2 computer win with alpha-beta search statistics](Task2/screenshots/task2-computer-wins.png)
+
+### Task 3 — Two full-depth computers
+
+![Task 3 ten draws between two full-depth alpha-beta players](Task3/screenshots/task3-perfect-vs-perfect.png)
+
+### Task 4 — Three players on a 4×4 board
+
 The Task 4 screenshot currently named `task4-10games.png` shows a **five-game run**. Its accompanying session log records a **separate ten-game run**. The screenshot's game count is visible in its scoreboard.
 
 ![Task 4 three-player board and scoreboard](Task4/screenshots/task4-10games.png)
+
+### Task 5 — Three players on a 10×10 board
+
+![Task 5 ten-game results on a 10×10 board using the default heuristics](Task5/screenshots/task5-B10.png)
 
 ## Code organization and attribution
 
