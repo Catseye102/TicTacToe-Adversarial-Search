@@ -1,4 +1,4 @@
-# Tic-Tac-Toe with adversarial search
+# Tic-Tac-Toe with Minimax
 
 Five browser-based JavaScript tasks explore Minimax, alpha-beta pruning, and three-player Maxⁿ. The project was developed for CS6364 Artificial Intelligence at The University of Texas at Dallas by **Shahran Rahman Alve** and **Hasnat Jamil Bhuiyan**.
 

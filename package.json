@@ -1,5 +1,5 @@
 {
-  "name": "tictactoe-adversarial-search",
+  "name": "tictactoe-minimax",
   "version": "1.0.0",
   "private": true,
   "description": "Five JavaScript Tic-Tac-Toe experiments with Minimax, alpha-beta pruning, and three-player Max-n.",
